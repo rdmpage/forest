@@ -9,9 +9,9 @@ Algorithm decsribed in "An edit script for taxonomic classifications" [doi:10.11
 
 The files ncbi_animal.gml and new_animal.gml contain simplified NCBI and "new" animal classifications, respectively:
 
-![https://raw.github.com/rdmpage/forest/master/example/1471-2105-6-208-1.jpg]
+![NCBI](https://raw.github.com/rdmpage/forest/master/example/1471-2105-6-208-1.jpg)
 
-![https://raw.github.com/rdmpage/forest/master/example/1471-2105-6-208-2.jpg]
+![New](https://raw.github.com/rdmpage/forest/master/example/1471-2105-6-208-2.jpg)
 
 Comparing these two classifications generates an "edit script" listing the operations needed to transform one tree into the other:
 
@@ -35,5 +35,5 @@ Comparing these two classifications generates an "edit script" listing the opera
 	insert edge Protostomia -> Lophotrochozoa
 	insert edge Protostomia -> Ecdysozoa
 
-![https://raw.github.com/rdmpage/forest/master/example/1471-2105-6-208-7.jpg]
+![Edit](https://raw.github.com/rdmpage/forest/master/example/1471-2105-6-208-7.jpg)
 
