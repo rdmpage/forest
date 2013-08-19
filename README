@@ -1,0 +1,35 @@
+Forest
+======
+
+This is a collection of short programs to compute an edit script between
+two trees. 
+
+forest
+------
+
+Given two trees T1 and T2 in GML format, forest outputs an edit script.
+
+script
+------
+
+Given T1 and the edit script transforming T1 into T2, script generates
+T2 using the script.
+
+gml2dot
+-------
+
+A simple utility to convert a GML file into a dot file display using
+Graphviz
+
+Compiling
+=========
+
+The usual ./configure followed by make. The programs need the Graph
+Template Library (GTL) which is available free for non-commercial use from 
+http://infosun.fmi.uni-passau.de/GTL/.
+
+
+Authors
+=======
+
+These programs were written by Gabriel Valiente and Rod Page.
