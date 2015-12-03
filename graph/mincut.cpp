@@ -12,7 +12,7 @@
 #include <set>
 
 #ifdef __GNUC__
-#include <algo.h>
+#include <algorithm>
 #endif
 
 #ifdef __BORLANDC__

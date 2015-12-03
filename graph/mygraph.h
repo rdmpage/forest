@@ -4,8 +4,8 @@
 #define MYGRAPH_H
 
 // STL
-#include <iostream.h>
-#include <fstream.h>
+#include <iostream>
+#include <fstream>
 #include <map>
 #include <set>
 

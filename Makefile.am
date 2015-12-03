@@ -1,8 +1,8 @@
 # $Id: Makefile.am,v 1.2 2005/04/18 23:02:08 rdmp1c Exp $
 
 GRAPHDIR	= graph
-LIBS		= -lGTL -L$(GRAPHDIR) -lgraph 
-INCLUDES 	= -I$(GRAPHDIR) 
+LIBS		= -lGTL -L$(GRAPHDIR) -lgraph -L/usr/local/lib
+INCLUDES 	= -I$(GRAPHDIR) -I/usr/local/include
 
 AM_CXXFLAGS=-Wno-deprecated
 AM_CFLAGS=-Wno-deprecated

@@ -2,6 +2,10 @@
 *.slo
 *.lo
 *.o
+*.Po
+*.log
+autom4te.cache
+*.status
 
 # Compiled Dynamic libraries
 *.so

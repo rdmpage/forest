@@ -2,8 +2,9 @@
 
 dnl Process this file with autoconf to produce a configure script
 
-AC_INIT(forest.cpp)
-AM_INIT_AUTOMAKE(forest, 0.1)
+AC_INIT(forest, 0.1)
+AC_CONFIG_SRCDIR(.)
+AM_INIT_AUTOMAKE
 AC_PROG_CXX
 AC_LANG_CPLUSPLUS
 AC_PROG_CC
