@@ -8,6 +8,7 @@ autom4te.cache
 *.status
 
 Makefile.in
+Makefile
 
 # Compiled Dynamic libraries
 *.so
