@@ -7,6 +7,8 @@
 autom4te.cache
 *.status
 
+Makefile.in
+
 # Compiled Dynamic libraries
 *.so
 *.dylib
@@ -15,3 +17,9 @@ autom4te.cache
 *.lai
 *.la
 *.a
+
+# Executables
+
+
+# Experimental stuff
+junk/

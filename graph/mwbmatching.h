@@ -1,4 +1,4 @@
-// $Id: mwbmatching.h,v 1.2 2005/03/09 14:51:34 rdmp1c Exp $
+// $Id: mwbmatching.h,v 1.3 2007/10/28 08:47:21 rdmp1c Exp $
 
 #ifndef MWBMATCHING_H
 #define MWBMATCHING_H
@@ -69,7 +69,7 @@ protected:
     /**
      * @internal
      */
-	int mwbm;
+	long mwbm;
 	
     /**
      * @internal
@@ -83,10 +83,10 @@ protected:
     
     list<edge> result;
     
-	node_map<int> pot;
+	node_map<long> pot;
 	node_map<bool> free;
-	node_map<int> dist;
-	node_map<int> pred;
+	node_map<long> dist;
+	node_map<long> pred;
 	map <int, node, less<int> > node_from_id;
 	map <int, edge, less<int> > edge_from_id;
 	

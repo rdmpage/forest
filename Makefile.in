@@ -88,7 +88,8 @@ POST_INSTALL = :
 NORMAL_UNINSTALL = :
 PRE_UNINSTALL = :
 POST_UNINSTALL = :
-bin_PROGRAMS = forest$(EXEEXT) script$(EXEEXT) gml2dot$(EXEEXT)
+bin_PROGRAMS = forest$(EXEEXT) script$(EXEEXT) gml2dot$(EXEEXT) \
+	html$(EXEEXT)
 subdir = .
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/configure.ac
@@ -109,6 +110,9 @@ forest_LDADD = $(LDADD)
 am_gml2dot_OBJECTS = gml2dot.$(OBJEXT)
 gml2dot_OBJECTS = $(am_gml2dot_OBJECTS)
 gml2dot_LDADD = $(LDADD)
+am_html_OBJECTS = html.$(OBJEXT)
+html_OBJECTS = $(am_html_OBJECTS)
+html_LDADD = $(LDADD)
 am_script_OBJECTS = script.$(OBJEXT)
 script_OBJECTS = $(am_script_OBJECTS)
 script_LDADD = $(LDADD)
@@ -145,8 +149,10 @@ AM_V_CXXLD = $(am__v_CXXLD_@AM_V@)
 am__v_CXXLD_ = $(am__v_CXXLD_@AM_DEFAULT_V@)
 am__v_CXXLD_0 = @echo "  CXXLD   " $@;
 am__v_CXXLD_1 = 
-SOURCES = $(forest_SOURCES) $(gml2dot_SOURCES) $(script_SOURCES)
-DIST_SOURCES = $(forest_SOURCES) $(gml2dot_SOURCES) $(script_SOURCES)
+SOURCES = $(forest_SOURCES) $(gml2dot_SOURCES) $(html_SOURCES) \
+	$(script_SOURCES)
+DIST_SOURCES = $(forest_SOURCES) $(gml2dot_SOURCES) $(html_SOURCES) \
+	$(script_SOURCES)
 RECURSIVE_TARGETS = all-recursive check-recursive cscopelist-recursive \
 	ctags-recursive dvi-recursive html-recursive info-recursive \
 	install-data-recursive install-dvi-recursive \
@@ -334,6 +340,7 @@ SUBDIRS = graph
 forest_SOURCES = forest.cpp
 script_SOURCES = script.cpp
 gml2dot_SOURCES = $(GRAPHDIR)/gml2dot.cpp
+html_SOURCES = html.cpp
 all: all-recursive
 
 .SUFFIXES:
@@ -422,6 +429,10 @@ gml2dot$(EXEEXT): $(gml2dot_OBJECTS) $(gml2dot_DEPENDENCIES) $(EXTRA_gml2dot_DEP
 	@rm -f gml2dot$(EXEEXT)
 	$(AM_V_CXXLD)$(CXXLINK) $(gml2dot_OBJECTS) $(gml2dot_LDADD) $(LIBS)
 
+html$(EXEEXT): $(html_OBJECTS) $(html_DEPENDENCIES) $(EXTRA_html_DEPENDENCIES) 
+	@rm -f html$(EXEEXT)
+	$(AM_V_CXXLD)$(CXXLINK) $(html_OBJECTS) $(html_LDADD) $(LIBS)
+
 script$(EXEEXT): $(script_OBJECTS) $(script_DEPENDENCIES) $(EXTRA_script_DEPENDENCIES) 
 	@rm -f script$(EXEEXT)
 	$(AM_V_CXXLD)$(CXXLINK) $(script_OBJECTS) $(script_LDADD) $(LIBS)
@@ -434,6 +445,7 @@ distclean-compile:
 
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/forest.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/gml2dot.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/html.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/script.Po@am__quote@
 
 .cpp.o:
@@ -810,8 +822,6 @@ distclean-am: clean-am distclean-compile distclean-generic \
 dvi: dvi-recursive
 
 dvi-am:
-
-html: html-recursive
 
 html-am:
 

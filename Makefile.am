@@ -10,9 +10,10 @@ AM_CFLAGS=-Wno-deprecated
 SUBDIRS = graph
 
 # The actual programs
-bin_PROGRAMS = forest script gml2dot
+bin_PROGRAMS = forest script gml2dot html
 forest_SOURCES = forest.cpp
 script_SOURCES = script.cpp
 gml2dot_SOURCES = $(GRAPHDIR)/gml2dot.cpp
+html_SOURCES = html.cpp
 
    

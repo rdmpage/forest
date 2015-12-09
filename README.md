@@ -1,9 +1,9 @@
 forest
 ======
 
-Compute edit script to convert one classification into another
+Compute edit script to convert one classification into another.
 
-Algorithm decsribed in "An edit script for taxonomic classifications" [doi:10.1186/1471-2105-6-208](http://dx.doi.org/10.1186/1471-2105-6-208)
+Algorithm described in "An edit script for taxonomic classifications" [doi:10.1186/1471-2105-6-208](http://dx.doi.org/10.1186/1471-2105-6-208)
 
 #### Example
 
@@ -37,3 +37,27 @@ Comparing these two classifications generates an "edit script" listing the opera
 
 ![Edit](https://raw.github.com/rdmpage/forest/master/example/1471-2105-6-208-7.jpg)
 
+
+#### Dependencies
+The program uses the Graph Template Library (GTL) which is available from [http://www.fim.uni-passau.de/fileadmin/files/lehrstuhl/brandenburg/projekte/gtl/GTL-1.2.4-lgpl.tar.gz](http://www.fim.uni-passau.de/fileadmin/files/lehrstuhl/brandenburg/projekte/gtl/GTL-1.2.4-lgpl.tar.gz). There is a copy of this file in the vendor folder.
+
+#### Building
+If you are building from this repository you will need to do the standard things:
+
+* aclocal
+* autoconf
+* automake
+* ./configure
+* make
+
+## Displaying tree difference
+
+The program html will generate a web page showing the differences between the trees. For example, given two classifications of whales, you can generate an edit script:
+
+    ./forest MSW/Cetacea.gml MSW/GBIF-Cetacea.gml > cet.txt
+
+The file Cet.txt contains the edit script, which you can then pass (along with the trees) to html:
+
+    ./html MSW/Cetacea.gml MSW/GBIF-Cetacea.gml cet.txt > cet.html
+
+If you open cet.html in a web browser you will have an interactive viewer of the differences between the two trees. You can scroll up and down in both trees. Clicking on a node in one tree will force the corresponding node (if it exists) in the other tree to scroll into view.

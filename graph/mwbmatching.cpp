@@ -1,4 +1,4 @@
-// $Id: mwbmatching.cpp,v 1.2 2005/03/09 14:51:34 rdmp1c Exp $
+// $Id: mwbmatching.cpp,v 1.3 2007/10/28 08:47:20 rdmp1c Exp $
 
 #include "mwbmatching.h"
 
@@ -91,7 +91,7 @@ int mwbmatching::run(graph& G)
 		if (edge_weight[e] > C) 
 			C = edge_weight[e];	
 	}
-	
+
 	list<node>::iterator it = A.begin();
 	list<node>::iterator end = A.end();
 	while (it != end)
@@ -101,10 +101,13 @@ int mwbmatching::run(graph& G)
 	}
 	
 	it = A.begin();
+	
 	while (it != end)
 	{
 		if (free[*it])
+		{
 			augment (G, *it);
+		}
 		it++;
 	}
 
@@ -124,7 +127,6 @@ int mwbmatching::run(graph& G)
 	}
 
 
-
     return(GTL_OK);
 }
 
@@ -138,8 +140,8 @@ int mwbmatching::augment(graph& G, node a)
 	
 	dist[a] = 0;
 	node best_node_in_A = a;
-	int minA = pot[a];
-	int delta;
+	long minA = pot[a];
+	long delta;
 	
 	stack<node, vector<node> > RA;
 	RA.push(a);
@@ -152,12 +154,13 @@ int mwbmatching::augment(graph& G, node a)
 	forall_adj_edges (e, a1)
 	{
 		node b = e.target();
-		int db = dist[a1] + (pot[a1] + pot[b] - edge_weight[e]);
+		long db = dist[a1] + (pot[a1] + pot[b] - edge_weight[e]);
 		if (pred[b] == -1)
 		{
 			dist[b] = db;
 			pred[b] = e.id();
 			RB.push(b);
+			
 			fh_insert (pq, b.id(), db);	
 		}
 		else
@@ -166,6 +169,7 @@ int mwbmatching::augment(graph& G, node a)
 			{
 				dist[b] = db;
 				pred[b] = e.id();
+
 				fh_decrease_key (pq, b.id(), db);  
 			}
 		}
@@ -175,7 +179,7 @@ int mwbmatching::augment(graph& G, node a)
 	{
 		// Find node with minimum distance db
 		int node_id;
-		int db;
+		long db;
 		if (pq->n == 0)
 		{
 			node_id = -1;
@@ -226,12 +230,13 @@ int mwbmatching::augment(graph& G, node a)
 				forall_adj_edges (e, a1)
 				{
 					node b = e.target();
-					int db = dist[a1] + (pot[a1] + pot[b] - edge_weight[e]);
+					long db = dist[a1] + (pot[a1] + pot[b] - edge_weight[e]);
 					if (pred[b] == -1)
 					{
 						dist[b] = db;
 						pred[b] = e.id();
 						RB.push(b);
+						
 						fh_insert (pq, b.id(), db);	
 					}
 					else
@@ -240,6 +245,7 @@ int mwbmatching::augment(graph& G, node a)
 						{
 							dist[b] = db;
 							pred[b] = e.id();
+
 							fh_decrease_key (pq, b.id(), db);  
 						}
 					}
@@ -254,7 +260,8 @@ int mwbmatching::augment(graph& G, node a)
 	{
 		node a = RA.top();
 		RA.pop();
-		int pot_change = delta - dist[a];
+		pred[a] = -1;
+		long pot_change = delta - dist[a];
 		if (pot_change <= 0) continue;
 		pot[a] = pot[a] - pot_change;		
 	}
@@ -262,9 +269,11 @@ int mwbmatching::augment(graph& G, node a)
 	{
 		node b = RB.top();
 		RB.pop();
-		int pot_change = delta - dist[b];
+		pred[b] = -1;
+		
+		long pot_change = delta - dist[b];
 		if (pot_change <= 0) continue;
-		pot[a] = pot[b] + pot_change;		
+		pot[b] = pot[b] + pot_change;		
 	}
 	
 	// Clean up

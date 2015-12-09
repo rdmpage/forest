@@ -175,9 +175,11 @@ public:
 	string get_node_label (node n) { return label[n]; };
 	void set_node_label (node n, string s) { label[n] = s; };
 	
+	string get_edge_colour (edge e) { return edge_colour[e]; };
 	void set_edge_colour (edge e, string colour) { edge_colour[e] = colour; };
-	void set_node_colour (node n, string colour) { node_colour[n] = colour; };
 
+	string get_node_colour (node n) { return node_colour[n]; };
+	void set_node_colour (node n, string colour) { node_colour[n] = colour; };
 
 	double node_cliqueishness (node &n);
 	double cliqueishness ();
