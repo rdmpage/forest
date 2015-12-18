@@ -11,6 +11,9 @@ $edges = array();
 
 $text = '';
 
+$source = 0;
+$target = 0;
+
 while (!feof($file_handle)) 
 {
 	$line = fgets($file_handle);
@@ -27,6 +30,10 @@ while (!feof($file_handle))
 			{
 				$status = 2; // in a edge
 				$text = $line;
+				
+				$source = 0; 
+				$target = 0;
+				$label = '';
 			}		
 			break;
 			
@@ -41,10 +48,41 @@ while (!feof($file_handle))
 			break;			
 			
 		case 2:
-			$text .= $line;
-			if (preg_match('/^\s*\]$/', $line))
+			//$text .= $line;
+			if (preg_match('/source\s+(?<source>\d+)/', $line, $m))
 			{				
-				$edges[] = $text;
+				$source = $m['source'];
+			}
+			if (preg_match('/target\s+(?<target>\d+)/', $line, $m))
+			{				
+				$target = $m['target'];
+			}
+			if (preg_match('/label\s+"(?<label>.*)"/', $line, $m))
+			{				
+				$label = $m['label'];
+			}
+						
+			if (preg_match('/^\s*\]$/', $line))
+			{		
+			
+				switch($label)
+				{
+					case 'parent_of':
+						$edges[] = "edge [\n\tsource $source\n\ttarget $target\n\tlabel \"$label\"\n]\n";
+						break;
+						
+					default:
+						$edges[] = "edge [\n\tsource $target\n\ttarget $source\n\tlabel \"$label\"\n]\n";
+						break;
+				}					
+			
+				/*
+				// skip badness
+				if (preg_match('/parent_of/', $text))
+				{
+					$edges[] = $text;
+				}
+				*/
 				$text = '';
 				$status = 0;
 			}

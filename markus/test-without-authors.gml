@@ -3,241 +3,21 @@ graph [
     id 0
     label "Mantodea"
   ]
-  edge [
-    source 0
-    target 1
-    label "PARENT_OF"
-  ]
   node [
     id 1
     label "Hymenopodidae"
-  ]
-  edge [
-    source 1
-    target 326
-    label "PARENT_OF"
-  ]
-  edge [
-    source 1
-    target 209
-    label "PARENT_OF"
-  ]
-  edge [
-    source 1
-    target 192
-    label "PARENT_OF"
-  ]
-  edge [
-    source 1
-    target 2
-    label "PARENT_OF"
   ]
   node [
     id 2
     label "Acromantinae"
   ]
-  edge [
-    source 2
-    target 3
-    label "PARENT_OF"
-  ]
   node [
     id 3
     label "Acromantini"
   ]
-  edge [
-    source 3
-    target 190
-    label "PARENT_OF"
-  ]
-  edge [
-    source 3
-    target 185
-    label "PARENT_OF"
-  ]
-  edge [
-    source 3
-    target 187
-    label "PARENT_OF"
-  ]
-  edge [
-    source 3
-    target 152
-    label "PARENT_OF"
-  ]
-  edge [
-    source 3
-    target 143
-    label "PARENT_OF"
-  ]
-  edge [
-    source 3
-    target 139
-    label "PARENT_OF"
-  ]
-  edge [
-    source 3
-    target 113
-    label "PARENT_OF"
-  ]
-  edge [
-    source 3
-    target 110
-    label "PARENT_OF"
-  ]
-  edge [
-    source 3
-    target 81
-    label "PARENT_OF"
-  ]
-  edge [
-    source 3
-    target 87
-    label "PARENT_OF"
-  ]
-  edge [
-    source 3
-    target 74
-    label "PARENT_OF"
-  ]
-  edge [
-    source 3
-    target 79
-    label "PARENT_OF"
-  ]
-  edge [
-    source 3
-    target 72
-    label "PARENT_OF"
-  ]
-  edge [
-    source 3
-    target 62
-    label "PARENT_OF"
-  ]
-  edge [
-    source 3
-    target 60
-    label "PARENT_OF"
-  ]
-  edge [
-    source 3
-    target 45
-    label "PARENT_OF"
-  ]
-  edge [
-    source 3
-    target 29
-    label "PARENT_OF"
-  ]
-  edge [
-    source 3
-    target 4
-    label "PARENT_OF"
-  ]
   node [
     id 4
     label "Acromantis"
-  ]
-  edge [
-    source 4
-    target 27
-    label "PARENT_OF"
-  ]
-  edge [
-    source 4
-    target 28
-    label "PARENT_OF"
-  ]
-  edge [
-    source 4
-    target 25
-    label "PARENT_OF"
-  ]
-  edge [
-    source 4
-    target 26
-    label "PARENT_OF"
-  ]
-  edge [
-    source 4
-    target 21
-    label "PARENT_OF"
-  ]
-  edge [
-    source 4
-    target 22
-    label "PARENT_OF"
-  ]
-  edge [
-    source 4
-    target 19
-    label "PARENT_OF"
-  ]
-  edge [
-    source 4
-    target 17
-    label "PARENT_OF"
-  ]
-  edge [
-    source 4
-    target 18
-    label "PARENT_OF"
-  ]
-  edge [
-    source 4
-    target 15
-    label "PARENT_OF"
-  ]
-  edge [
-    source 4
-    target 14
-    label "PARENT_OF"
-  ]
-  edge [
-    source 4
-    target 13
-    label "PARENT_OF"
-  ]
-  edge [
-    source 4
-    target 12
-    label "PARENT_OF"
-  ]
-  edge [
-    source 4
-    target 11
-    label "PARENT_OF"
-  ]
-  edge [
-    source 4
-    target 10
-    label "PARENT_OF"
-  ]
-  edge [
-    source 4
-    target 9
-    label "PARENT_OF"
-  ]
-  edge [
-    source 4
-    target 8
-    label "PARENT_OF"
-  ]
-  edge [
-    source 4
-    target 7
-    label "PARENT_OF"
-  ]
-  edge [
-    source 4
-    target 6
-    label "PARENT_OF"
-  ]
-  edge [
-    source 4
-    target 5
-    label "PARENT_OF"
   ]
   node [
     id 5
@@ -287,21 +67,6 @@ graph [
     id 16
     label "Acromantis javana"
   ]
-  edge [
-    source 16
-    target 18
-    label "PROPARTE_SYNONYM_OF"
-  ]
-  edge [
-    source 16
-    target 18
-    label "BASIONYM_OF"
-  ]
-  edge [
-    source 16
-    target 15
-    label "SYNONYM_OF"
-  ]
   node [
     id 17
     label "Acromantis luzonica"
@@ -311,36 +76,12 @@ graph [
     label "Acromantis montana"
   ]
   node [
-    id 16
-    label "Acromantis javana"
-  ]
-  edge [
-    source 16
-    target 18
-    label "PROPARTE_SYNONYM_OF"
-  ]
-  edge [
-    source 16
-    target 18
-    label "BASIONYM_OF"
-  ]
-  edge [
-    source 16
-    target 15
-    label "SYNONYM_OF"
-  ]
-  node [
     id 19
     label "Acromantis moultoni"
   ]
   node [
     id 20
     label "Acromantis westwoodi"
-  ]
-  edge [
-    source 20
-    target 19
-    label "SYNONYM_OF"
   ]
   node [
     id 21
@@ -354,19 +95,9 @@ graph [
     id 24
     label "Acromantis formosa"
   ]
-  edge [
-    source 24
-    target 22
-    label "SYNONYM_OF"
-  ]
   node [
     id 23
     label "Acromantis parvula"
-  ]
-  edge [
-    source 23
-    target 22
-    label "SYNONYM_OF"
   ]
   node [
     id 25
@@ -388,54 +119,9 @@ graph [
     id 29
     label "Anasigerpes"
   ]
-  edge [
-    source 29
-    target 44
-    label "PARENT_OF"
-  ]
-  edge [
-    source 29
-    target 43
-    label "PARENT_OF"
-  ]
-  edge [
-    source 29
-    target 40
-    label "PARENT_OF"
-  ]
-  edge [
-    source 29
-    target 34
-    label "PARENT_OF"
-  ]
-  edge [
-    source 29
-    target 33
-    label "PARENT_OF"
-  ]
-  edge [
-    source 29
-    target 35
-    label "PARENT_OF"
-  ]
-  edge [
-    source 29
-    target 31
-    label "PARENT_OF"
-  ]
-  edge [
-    source 29
-    target 32
-    label "PARENT_OF"
-  ]
   node [
     id 30
     label "Phylloharpax"
-  ]
-  edge [
-    source 30
-    target 29
-    label "SYNONYM_OF"
   ]
   node [
     id 31
@@ -461,37 +147,17 @@ graph [
     id 39
     label "Anasigerpes alluaudi"
   ]
-  edge [
-    source 39
-    target 35
-    label "SYNONYM_OF"
-  ]
   node [
     id 38
     label "Anasigerpes crassipes"
-  ]
-  edge [
-    source 38
-    target 35
-    label "SYNONYM_OF"
   ]
   node [
     id 37
     label "Anasigerpes modesta"
   ]
-  edge [
-    source 37
-    target 35
-    label "SYNONYM_OF"
-  ]
   node [
     id 36
     label "Anasigerpes roemeri"
-  ]
-  edge [
-    source 36
-    target 35
-    label "SYNONYM_OF"
   ]
   node [
     id 40
@@ -501,19 +167,9 @@ graph [
     id 42
     label "Anasigerpes coxalis"
   ]
-  edge [
-    source 42
-    target 40
-    label "SYNONYM_OF"
-  ]
   node [
     id 41
     label "Anasigerpes punctata"
-  ]
-  edge [
-    source 41
-    target 40
-    label "SYNONYM_OF"
   ]
   node [
     id 43
@@ -527,73 +183,13 @@ graph [
     id 45
     label "Anaxarcha"
   ]
-  edge [
-    source 45
-    target 57
-    label "PARENT_OF"
-  ]
-  edge [
-    source 45
-    target 58
-    label "PARENT_OF"
-  ]
-  edge [
-    source 45
-    target 59
-    label "PARENT_OF"
-  ]
-  edge [
-    source 45
-    target 53
-    label "PARENT_OF"
-  ]
-  edge [
-    source 45
-    target 55
-    label "PARENT_OF"
-  ]
-  edge [
-    source 45
-    target 56
-    label "PARENT_OF"
-  ]
-  edge [
-    source 45
-    target 49
-    label "PARENT_OF"
-  ]
-  edge [
-    source 45
-    target 51
-    label "PARENT_OF"
-  ]
-  edge [
-    source 45
-    target 52
-    label "PARENT_OF"
-  ]
-  edge [
-    source 45
-    target 48
-    label "PARENT_OF"
-  ]
   node [
     id 47
     label "Anaxandra"
   ]
-  edge [
-    source 47
-    target 45
-    label "SYNONYM_OF"
-  ]
   node [
     id 46
     label "Parastatilia"
-  ]
-  edge [
-    source 46
-    target 45
-    label "SYNONYM_OF"
   ]
   node [
     id 48
@@ -606,11 +202,6 @@ graph [
   node [
     id 50
     label "Anaxarcha grammica"
-  ]
-  edge [
-    source 50
-    target 49
-    label "SYNONYM_OF"
   ]
   node [
     id 51
@@ -627,11 +218,6 @@ graph [
   node [
     id 54
     label "Anaxarcha parallela"
-  ]
-  edge [
-    source 54
-    target 53
-    label "SYNONYM_OF"
   ]
   node [
     id 55
@@ -657,11 +243,6 @@ graph [
     id 60
     label "Anoplosigerpes"
   ]
-  edge [
-    source 60
-    target 61
-    label "PARENT_OF"
-  ]
   node [
     id 61
     label "Anoplosigerpes tessmanni"
@@ -670,54 +251,9 @@ graph [
     id 62
     label "Chrysomantis"
   ]
-  edge [
-    source 62
-    target 68
-    label "PARENT_OF"
-  ]
-  edge [
-    source 62
-    target 67
-    label "PARENT_OF"
-  ]
-  edge [
-    source 62
-    target 66
-    label "PARENT_OF"
-  ]
-  edge [
-    source 62
-    target 65
-    label "PARENT_OF"
-  ]
-  edge [
-    source 62
-    target 71
-    label "PARENT_OF"
-  ]
-  edge [
-    source 62
-    target 70
-    label "PARENT_OF"
-  ]
-  edge [
-    source 62
-    target 69
-    label "PARENT_OF"
-  ]
-  edge [
-    source 62
-    target 64
-    label "PARENT_OF"
-  ]
   node [
     id 63
     label "Uvarovmantis"
-  ]
-  edge [
-    source 63
-    target 62
-    label "SYNONYM_OF"
   ]
   node [
     id 64
@@ -755,11 +291,6 @@ graph [
     id 72
     label "Citharomantis"
   ]
-  edge [
-    source 72
-    target 73
-    label "PARENT_OF"
-  ]
   node [
     id 73
     label "Citharomantis falcata"
@@ -767,26 +298,6 @@ graph [
   node [
     id 74
     label "Ephestiasula"
-  ]
-  edge [
-    source 74
-    target 76
-    label "PARENT_OF"
-  ]
-  edge [
-    source 74
-    target 75
-    label "PARENT_OF"
-  ]
-  edge [
-    source 74
-    target 78
-    label "PARENT_OF"
-  ]
-  edge [
-    source 74
-    target 77
-    label "PARENT_OF"
   ]
   node [
     id 75
@@ -808,11 +319,6 @@ graph [
     id 79
     label "Ephippiomantis"
   ]
-  edge [
-    source 79
-    target 80
-    label "PARENT_OF"
-  ]
   node [
     id 80
     label "Ephippiomantis ophirensis"
@@ -821,33 +327,13 @@ graph [
     id 81
     label "Heliomantis"
   ]
-  edge [
-    source 81
-    target 84
-    label "PARENT_OF"
-  ]
-  edge [
-    source 81
-    target 86
-    label "PARENT_OF"
-  ]
   node [
     id 83
     label "Deiroharpax"
   ]
-  edge [
-    source 83
-    target 81
-    label "SYNONYM_OF"
-  ]
   node [
     id 82
     label "Paraspilota"
-  ]
-  edge [
-    source 82
-    target 81
-    label "SYNONYM_OF"
   ]
   node [
     id 84
@@ -857,11 +343,6 @@ graph [
     id 85
     label "Heliomantis viridis"
   ]
-  edge [
-    source 85
-    target 84
-    label "SYNONYM_OF"
-  ]
   node [
     id 86
     label "Heliomantis latipennis"
@@ -870,118 +351,13 @@ graph [
     id 87
     label "Hestiasula"
   ]
-  edge [
-    source 87
-    target 106
-    label "PARENT_OF"
-  ]
-  edge [
-    source 87
-    target 108
-    label "PARENT_OF"
-  ]
-  edge [
-    source 87
-    target 107
-    label "PARENT_OF"
-  ]
-  edge [
-    source 87
-    target 109
-    label "PARENT_OF"
-  ]
-  edge [
-    source 87
-    target 98
-    label "PARENT_OF"
-  ]
-  edge [
-    source 87
-    target 97
-    label "PARENT_OF"
-  ]
-  edge [
-    source 87
-    target 100
-    label "PARENT_OF"
-  ]
-  edge [
-    source 87
-    target 99
-    label "PARENT_OF"
-  ]
-  edge [
-    source 87
-    target 102
-    label "PARENT_OF"
-  ]
-  edge [
-    source 87
-    target 101
-    label "PARENT_OF"
-  ]
-  edge [
-    source 87
-    target 104
-    label "PARENT_OF"
-  ]
-  edge [
-    source 87
-    target 103
-    label "PARENT_OF"
-  ]
-  edge [
-    source 87
-    target 91
-    label "PARENT_OF"
-  ]
-  edge [
-    source 87
-    target 92
-    label "PARENT_OF"
-  ]
-  edge [
-    source 87
-    target 90
-    label "PARENT_OF"
-  ]
-  edge [
-    source 87
-    target 95
-    label "PARENT_OF"
-  ]
-  edge [
-    source 87
-    target 96
-    label "PARENT_OF"
-  ]
-  edge [
-    source 87
-    target 93
-    label "PARENT_OF"
-  ]
-  edge [
-    source 87
-    target 94
-    label "PARENT_OF"
-  ]
   node [
     id 89
     label "Catestiasula"
   ]
-  edge [
-    source 89
-    target 87
-    label "SYNONYM_OF"
-  ]
   node [
     id 88
     label "Hestias"
-  ]
-  edge [
-    source 88
-    target 87
-    label "SYNONYM_OF"
   ]
   node [
     id 90
@@ -1047,11 +423,6 @@ graph [
     id 105
     label "Hestiasula sarawaca"
   ]
-  edge [
-    source 105
-    target 104
-    label "SYNONYM_OF"
-  ]
   node [
     id 106
     label "Hestiasula rogenhoferi"
@@ -1072,16 +443,6 @@ graph [
     id 110
     label "Metacromantis"
   ]
-  edge [
-    source 110
-    target 112
-    label "PARENT_OF"
-  ]
-  edge [
-    source 110
-    target 111
-    label "PARENT_OF"
-  ]
   node [
     id 111
     label "Metacromantis nigrofemorata"
@@ -1094,118 +455,13 @@ graph [
     id 113
     label "Odontomantis"
   ]
-  edge [
-    source 113
-    target 136
-    label "PARENT_OF"
-  ]
-  edge [
-    source 113
-    target 132
-    label "PARENT_OF"
-  ]
-  edge [
-    source 113
-    target 129
-    label "PARENT_OF"
-  ]
-  edge [
-    source 113
-    target 130
-    label "PARENT_OF"
-  ]
-  edge [
-    source 113
-    target 137
-    label "PARENT_OF"
-  ]
-  edge [
-    source 113
-    target 138
-    label "PARENT_OF"
-  ]
-  edge [
-    source 113
-    target 121
-    label "PARENT_OF"
-  ]
-  edge [
-    source 113
-    target 122
-    label "PARENT_OF"
-  ]
-  edge [
-    source 113
-    target 123
-    label "PARENT_OF"
-  ]
-  edge [
-    source 113
-    target 124
-    label "PARENT_OF"
-  ]
-  edge [
-    source 113
-    target 125
-    label "PARENT_OF"
-  ]
-  edge [
-    source 113
-    target 126
-    label "PARENT_OF"
-  ]
-  edge [
-    source 113
-    target 127
-    label "PARENT_OF"
-  ]
-  edge [
-    source 113
-    target 128
-    label "PARENT_OF"
-  ]
-  edge [
-    source 113
-    target 116
-    label "PARENT_OF"
-  ]
-  edge [
-    source 113
-    target 117
-    label "PARENT_OF"
-  ]
-  edge [
-    source 113
-    target 118
-    label "PARENT_OF"
-  ]
-  edge [
-    source 113
-    target 119
-    label "PARENT_OF"
-  ]
-  edge [
-    source 113
-    target 120
-    label "PARENT_OF"
-  ]
   node [
     id 115
     label "Antissa"
   ]
-  edge [
-    source 115
-    target 113
-    label "SYNONYM_OF"
-  ]
   node [
     id 114
     label "Euantissa"
-  ]
-  edge [
-    source 114
-    target 113
-    label "SYNONYM_OF"
   ]
   node [
     id 116
@@ -1271,11 +527,6 @@ graph [
     id 131
     label "Odontomantis javana"
   ]
-  edge [
-    source 131
-    target 130
-    label "SYNONYM_OF"
-  ]
   node [
     id 132
     label "Odontomantis pulchra"
@@ -1284,28 +535,13 @@ graph [
     id 135
     label "Odontomantis caffraria"
   ]
-  edge [
-    source 135
-    target 132
-    label "SYNONYM_OF"
-  ]
   node [
     id 134
     label "Odontomantis flavicincta"
   ]
-  edge [
-    source 134
-    target 132
-    label "SYNONYM_OF"
-  ]
   node [
     id 133
     label "Odontomantis marginalis"
-  ]
-  edge [
-    source 133
-    target 132
-    label "SYNONYM_OF"
   ]
   node [
     id 136
@@ -1323,21 +559,6 @@ graph [
     id 139
     label "Oligomantis"
   ]
-  edge [
-    source 139
-    target 141
-    label "PARENT_OF"
-  ]
-  edge [
-    source 139
-    target 142
-    label "PARENT_OF"
-  ]
-  edge [
-    source 139
-    target 140
-    label "PARENT_OF"
-  ]
   node [
     id 140
     label "Oligomantis hyalina"
@@ -1354,39 +575,9 @@ graph [
     id 143
     label "Otomantis"
   ]
-  edge [
-    source 143
-    target 150
-    label "PARENT_OF"
-  ]
-  edge [
-    source 143
-    target 149
-    label "PARENT_OF"
-  ]
-  edge [
-    source 143
-    target 148
-    label "PARENT_OF"
-  ]
-  edge [
-    source 143
-    target 146
-    label "PARENT_OF"
-  ]
-  edge [
-    source 143
-    target 145
-    label "PARENT_OF"
-  ]
   node [
     id 144
     label "Acanthomantis"
-  ]
-  edge [
-    source 144
-    target 143
-    label "SYNONYM_OF"
   ]
   node [
     id 145
@@ -1399,11 +590,6 @@ graph [
   node [
     id 147
     label "Otomantis xenocentrus"
-  ]
-  edge [
-    source 147
-    target 146
-    label "SYNONYM_OF"
   ]
   node [
     id 148
@@ -1421,117 +607,17 @@ graph [
     id 151
     label "Otomantis africana"
   ]
-  edge [
-    source 151
-    target 150
-    label "SYNONYM_OF"
-  ]
   node [
     id 152
     label "Oxypiloidea"
-  ]
-  edge [
-    source 152
-    target 164
-    label "PARENT_OF"
-  ]
-  edge [
-    source 152
-    target 153
-    label "PARENT_OF"
   ]
   node [
     id 164
     label "Catasigerpes"
   ]
-  edge [
-    source 164
-    target 182
-    label "PARENT_OF"
-  ]
-  edge [
-    source 164
-    target 184
-    label "PARENT_OF"
-  ]
-  edge [
-    source 164
-    target 183
-    label "PARENT_OF"
-  ]
-  edge [
-    source 164
-    target 178
-    label "PARENT_OF"
-  ]
-  edge [
-    source 164
-    target 177
-    label "PARENT_OF"
-  ]
-  edge [
-    source 164
-    target 180
-    label "PARENT_OF"
-  ]
-  edge [
-    source 164
-    target 179
-    label "PARENT_OF"
-  ]
-  edge [
-    source 164
-    target 166
-    label "PARENT_OF"
-  ]
-  edge [
-    source 164
-    target 167
-    label "PARENT_OF"
-  ]
-  edge [
-    source 164
-    target 168
-    label "PARENT_OF"
-  ]
-  edge [
-    source 164
-    target 173
-    label "PARENT_OF"
-  ]
-  edge [
-    source 164
-    target 174
-    label "PARENT_OF"
-  ]
-  edge [
-    source 164
-    target 169
-    label "PARENT_OF"
-  ]
-  edge [
-    source 164
-    target 170
-    label "PARENT_OF"
-  ]
-  edge [
-    source 164
-    target 171
-    label "PARENT_OF"
-  ]
-  edge [
-    source 164
-    target 172
-    label "PARENT_OF"
-  ]
   node [
     id 165
     label "Sigerpes"
-  ]
-  edge [
-    source 165
-    target 164
-    label "SYNONYM_OF"
   ]
   node [
     id 166
@@ -1573,19 +659,9 @@ graph [
     id 176
     label "Oxypiloidea camerunensis"
   ]
-  edge [
-    source 176
-    target 174
-    label "SYNONYM_OF"
-  ]
   node [
     id 175
     label "Oxypiloidea niloticus"
-  ]
-  edge [
-    source 175
-    target 174
-    label "SYNONYM_OF"
   ]
   node [
     id 177
@@ -1607,11 +683,6 @@ graph [
     id 181
     label "Oxypiloidea toganus"
   ]
-  edge [
-    source 181
-    target 180
-    label "SYNONYM_OF"
-  ]
   node [
     id 182
     label "Oxypiloidea orientalis"
@@ -1627,56 +698,6 @@ graph [
   node [
     id 153
     label "Oxypiloidea"
-  ]
-  edge [
-    source 153
-    target 161
-    label "PARENT_OF"
-  ]
-  edge [
-    source 153
-    target 162
-    label "PARENT_OF"
-  ]
-  edge [
-    source 153
-    target 163
-    label "PARENT_OF"
-  ]
-  edge [
-    source 153
-    target 160
-    label "PARENT_OF"
-  ]
-  edge [
-    source 153
-    target 159
-    label "PARENT_OF"
-  ]
-  edge [
-    source 153
-    target 158
-    label "PARENT_OF"
-  ]
-  edge [
-    source 153
-    target 157
-    label "PARENT_OF"
-  ]
-  edge [
-    source 153
-    target 156
-    label "PARENT_OF"
-  ]
-  edge [
-    source 153
-    target 155
-    label "PARENT_OF"
-  ]
-  edge [
-    source 153
-    target 154
-    label "PARENT_OF"
   ]
   node [
     id 154
@@ -1722,11 +743,6 @@ graph [
     id 185
     label "Parahestiasula"
   ]
-  edge [
-    source 185
-    target 186
-    label "PARENT_OF"
-  ]
   node [
     id 186
     label "Parahestiasula obscura"
@@ -1734,16 +750,6 @@ graph [
   node [
     id 187
     label "Psychomantis"
-  ]
-  edge [
-    source 187
-    target 189
-    label "PARENT_OF"
-  ]
-  edge [
-    source 187
-    target 188
-    label "PARENT_OF"
   ]
   node [
     id 188
@@ -1757,11 +763,6 @@ graph [
     id 190
     label "Rhomantis"
   ]
-  edge [
-    source 190
-    target 191
-    label "PARENT_OF"
-  ]
   node [
     id 191
     label "Rhomantis moultoni"
@@ -1770,43 +771,13 @@ graph [
     id 192
     label "Epaphroditinae"
   ]
-  edge [
-    source 192
-    target 193
-    label "PARENT_OF"
-  ]
   node [
     id 193
     label "Phyllocranini"
   ]
-  edge [
-    source 193
-    target 196
-    label "PARENT_OF"
-  ]
-  edge [
-    source 193
-    target 194
-    label "PARENT_OF"
-  ]
-  edge [
-    source 193
-    target 201
-    label "PARENT_OF"
-  ]
-  edge [
-    source 193
-    target 205
-    label "PARENT_OF"
-  ]
   node [
     id 194
     label "Amphecostephanus"
-  ]
-  edge [
-    source 194
-    target 195
-    label "PARENT_OF"
   ]
   node [
     id 195
@@ -1815,21 +786,6 @@ graph [
   node [
     id 196
     label "Epaphrodita"
-  ]
-  edge [
-    source 196
-    target 200
-    label "PARENT_OF"
-  ]
-  edge [
-    source 196
-    target 197
-    label "PARENT_OF"
-  ]
-  edge [
-    source 196
-    target 198
-    label "PARENT_OF"
   ]
   node [
     id 197
@@ -1843,11 +799,6 @@ graph [
     id 199
     label "Epaphrodita dentifrons"
   ]
-  edge [
-    source 199
-    target 198
-    label "SYNONYM_OF"
-  ]
   node [
     id 200
     label "Epaphrodita undulata"
@@ -1856,24 +807,9 @@ graph [
     id 201
     label "Parablepharis"
   ]
-  edge [
-    source 201
-    target 202
-    label "PARENT_OF"
-  ]
   node [
     id 202
     label "Parablepharis kuhlii"
-  ]
-  edge [
-    source 202
-    target 203
-    label "PARENT_OF"
-  ]
-  edge [
-    source 202
-    target 204
-    label "PARENT_OF"
   ]
   node [
     id 203
@@ -1886,21 +822,6 @@ graph [
   node [
     id 205
     label "Phyllocrania"
-  ]
-  edge [
-    source 205
-    target 207
-    label "PARENT_OF"
-  ]
-  edge [
-    source 205
-    target 208
-    label "PARENT_OF"
-  ]
-  edge [
-    source 205
-    target 206
-    label "PARENT_OF"
   ]
   node [
     id 206
@@ -1918,93 +839,13 @@ graph [
     id 209
     label "Hymenopodinae"
   ]
-  edge [
-    source 209
-    target 210
-    label "PARENT_OF"
-  ]
   node [
     id 210
     label "Hymenopodini"
   ]
-  edge [
-    source 210
-    target 299
-    label "PARENT_OF"
-  ]
-  edge [
-    source 210
-    target 296
-    label "PARENT_OF"
-  ]
-  edge [
-    source 210
-    target 319
-    label "PARENT_OF"
-  ]
-  edge [
-    source 210
-    target 305
-    label "PARENT_OF"
-  ]
-  edge [
-    source 210
-    target 265
-    label "PARENT_OF"
-  ]
-  edge [
-    source 210
-    target 259
-    label "PARENT_OF"
-  ]
-  edge [
-    source 210
-    target 283
-    label "PARENT_OF"
-  ]
-  edge [
-    source 210
-    target 278
-    label "PARENT_OF"
-  ]
-  edge [
-    source 210
-    target 276
-    label "PARENT_OF"
-  ]
-  edge [
-    source 210
-    target 232
-    label "PARENT_OF"
-  ]
-  edge [
-    source 210
-    target 211
-    label "PARENT_OF"
-  ]
-  edge [
-    source 210
-    target 213
-    label "PARENT_OF"
-  ]
-  edge [
-    source 210
-    target 224
-    label "PARENT_OF"
-  ]
-  edge [
-    source 210
-    target 221
-    label "PARENT_OF"
-  ]
   node [
     id 211
     label "Attalia"
-  ]
-  edge [
-    source 211
-    target 212
-    label "PARENT_OF"
   ]
   node [
     id 212
@@ -2014,43 +855,13 @@ graph [
     id 213
     label "Chlidonoptera"
   ]
-  edge [
-    source 213
-    target 216
-    label "PARENT_OF"
-  ]
-  edge [
-    source 213
-    target 220
-    label "PARENT_OF"
-  ]
-  edge [
-    source 213
-    target 218
-    label "PARENT_OF"
-  ]
-  edge [
-    source 213
-    target 217
-    label "PARENT_OF"
-  ]
   node [
     id 215
     label "Anabomistria"
   ]
-  edge [
-    source 215
-    target 213
-    label "SYNONYM_OF"
-  ]
   node [
     id 214
     label "Bomistria"
-  ]
-  edge [
-    source 214
-    target 213
-    label "SYNONYM_OF"
   ]
   node [
     id 216
@@ -2068,11 +879,6 @@ graph [
     id 219
     label "Chlidonoptera lunata"
   ]
-  edge [
-    source 219
-    target 218
-    label "SYNONYM_OF"
-  ]
   node [
     id 220
     label "Chlidonoptera werneri"
@@ -2080,11 +886,6 @@ graph [
   node [
     id 221
     label "Chloroharpax"
-  ]
-  edge [
-    source 221
-    target 222
-    label "PARENT_OF"
   ]
   node [
     id 222
@@ -2094,39 +895,9 @@ graph [
     id 223
     label "Chloroharpax ocellifer"
   ]
-  edge [
-    source 223
-    target 222
-    label "SYNONYM_OF"
-  ]
   node [
     id 224
     label "Congoharpax"
-  ]
-  edge [
-    source 224
-    target 225
-    label "PARENT_OF"
-  ]
-  edge [
-    source 224
-    target 227
-    label "PARENT_OF"
-  ]
-  edge [
-    source 224
-    target 228
-    label "PARENT_OF"
-  ]
-  edge [
-    source 224
-    target 230
-    label "PARENT_OF"
-  ]
-  edge [
-    source 224
-    target 231
-    label "PARENT_OF"
   ]
   node [
     id 225
@@ -2135,11 +906,6 @@ graph [
   node [
     id 226
     label "Congoharpax lobipes"
-  ]
-  edge [
-    source 226
-    target 225
-    label "SYNONYM_OF"
   ]
   node [
     id 227
@@ -2153,11 +919,6 @@ graph [
     id 229
     label "Congoharpax sumatrana"
   ]
-  edge [
-    source 229
-    target 228
-    label "SYNONYM_OF"
-  ]
   node [
     id 230
     label "Congoharpax coiffaiti"
@@ -2170,137 +931,17 @@ graph [
     id 232
     label "Creobroter"
   ]
-  edge [
-    source 232
-    target 258
-    label "PARENT_OF"
-  ]
-  edge [
-    source 232
-    target 257
-    label "PARENT_OF"
-  ]
-  edge [
-    source 232
-    target 242
-    label "PARENT_OF"
-  ]
-  edge [
-    source 232
-    target 241
-    label "PARENT_OF"
-  ]
-  edge [
-    source 232
-    target 244
-    label "PARENT_OF"
-  ]
-  edge [
-    source 232
-    target 243
-    label "PARENT_OF"
-  ]
-  edge [
-    source 232
-    target 246
-    label "PARENT_OF"
-  ]
-  edge [
-    source 232
-    target 245
-    label "PARENT_OF"
-  ]
-  edge [
-    source 232
-    target 248
-    label "PARENT_OF"
-  ]
-  edge [
-    source 232
-    target 247
-    label "PARENT_OF"
-  ]
-  edge [
-    source 232
-    target 250
-    label "PARENT_OF"
-  ]
-  edge [
-    source 232
-    target 249
-    label "PARENT_OF"
-  ]
-  edge [
-    source 232
-    target 252
-    label "PARENT_OF"
-  ]
-  edge [
-    source 232
-    target 251
-    label "PARENT_OF"
-  ]
-  edge [
-    source 232
-    target 254
-    label "PARENT_OF"
-  ]
-  edge [
-    source 232
-    target 253
-    label "PARENT_OF"
-  ]
-  edge [
-    source 232
-    target 256
-    label "PARENT_OF"
-  ]
-  edge [
-    source 232
-    target 255
-    label "PARENT_OF"
-  ]
-  edge [
-    source 232
-    target 236
-    label "PARENT_OF"
-  ]
-  edge [
-    source 232
-    target 237
-    label "PARENT_OF"
-  ]
-  edge [
-    source 232
-    target 239
-    label "PARENT_OF"
-  ]
   node [
     id 235
     label "Creoboter"
-  ]
-  edge [
-    source 235
-    target 232
-    label "SYNONYM_OF"
   ]
   node [
     id 234
     label "Creobotra"
   ]
-  edge [
-    source 234
-    target 232
-    label "SYNONYM_OF"
-  ]
   node [
     id 233
     label "Creobrotra"
-  ]
-  edge [
-    source 233
-    target 232
-    label "SYNONYM_OF"
   ]
   node [
     id 236
@@ -2314,11 +955,6 @@ graph [
     id 238
     label "Creobroter inornatus"
   ]
-  edge [
-    source 238
-    target 237
-    label "SYNONYM_OF"
-  ]
   node [
     id 239
     label "Creobroter discifera"
@@ -2326,11 +962,6 @@ graph [
   node [
     id 240
     label "Creobroter lobatus"
-  ]
-  edge [
-    source 240
-    target 239
-    label "SYNONYM_OF"
   ]
   node [
     id 241
@@ -2408,21 +1039,6 @@ graph [
     id 259
     label "Galinthias"
   ]
-  edge [
-    source 259
-    target 262
-    label "PARENT_OF"
-  ]
-  edge [
-    source 259
-    target 264
-    label "PARENT_OF"
-  ]
-  edge [
-    source 259
-    target 260
-    label "PARENT_OF"
-  ]
   node [
     id 260
     label "Galinthias amoena"
@@ -2430,11 +1046,6 @@ graph [
   node [
     id 261
     label "Galinthias hyalina"
-  ]
-  edge [
-    source 261
-    target 260
-    label "SYNONYM_OF"
   ]
   node [
     id 262
@@ -2444,11 +1055,6 @@ graph [
     id 263
     label "Galinthias usambarica"
   ]
-  edge [
-    source 263
-    target 262
-    label "SYNONYM_OF"
-  ]
   node [
     id 264
     label "Galinthias occidentalis"
@@ -2457,38 +1063,13 @@ graph [
     id 265
     label "Harpagomantis"
   ]
-  edge [
-    source 265
-    target 270
-    label "PARENT_OF"
-  ]
-  edge [
-    source 265
-    target 269
-    label "PARENT_OF"
-  ]
-  edge [
-    source 265
-    target 268
-    label "PARENT_OF"
-  ]
   node [
     id 267
     label "Australomantis"
   ]
-  edge [
-    source 267
-    target 265
-    label "SYNONYM_OF"
-  ]
   node [
     id 266
     label "Harpax"
-  ]
-  edge [
-    source 266
-    target 265
-    label "SYNONYM_OF"
   ]
   node [
     id 268
@@ -2506,55 +1087,25 @@ graph [
     id 275
     label "Harpagomantis cornuta"
   ]
-  edge [
-    source 275
-    target 270
-    label "SYNONYM_OF"
-  ]
   node [
     id 274
     label "Harpagomantis lobata"
-  ]
-  edge [
-    source 274
-    target 270
-    label "SYNONYM_OF"
   ]
   node [
     id 273
     label "Harpagomantis paradoxa"
   ]
-  edge [
-    source 273
-    target 270
-    label "SYNONYM_OF"
-  ]
   node [
     id 272
     label "Harpagomantis quadricornis"
-  ]
-  edge [
-    source 272
-    target 270
-    label "SYNONYM_OF"
   ]
   node [
     id 271
     label "Harpagomantis spinocula"
   ]
-  edge [
-    source 271
-    target 270
-    label "SYNONYM_OF"
-  ]
   node [
     id 276
     label "Helvia"
-  ]
-  edge [
-    source 276
-    target 277
-    label "PARENT_OF"
   ]
   node [
     id 277
@@ -2564,29 +1115,9 @@ graph [
     id 278
     label "Hymenopus"
   ]
-  edge [
-    source 278
-    target 281
-    label "PARENT_OF"
-  ]
-  edge [
-    source 278
-    target 282
-    label "PARENT_OF"
-  ]
-  edge [
-    source 278
-    target 280
-    label "PARENT_OF"
-  ]
   node [
     id 279
     label "Hymenopa"
-  ]
-  edge [
-    source 279
-    target 278
-    label "SYNONYM_OF"
   ]
   node [
     id 280
@@ -2604,73 +1135,13 @@ graph [
     id 283
     label "Panurgica"
   ]
-  edge [
-    source 283
-    target 295
-    label "PARENT_OF"
-  ]
-  edge [
-    source 283
-    target 294
-    label "PARENT_OF"
-  ]
-  edge [
-    source 283
-    target 293
-    label "PARENT_OF"
-  ]
-  edge [
-    source 283
-    target 292
-    label "PARENT_OF"
-  ]
-  edge [
-    source 283
-    target 291
-    label "PARENT_OF"
-  ]
-  edge [
-    source 283
-    target 290
-    label "PARENT_OF"
-  ]
-  edge [
-    source 283
-    target 289
-    label "PARENT_OF"
-  ]
-  edge [
-    source 283
-    target 286
-    label "PARENT_OF"
-  ]
-  edge [
-    source 283
-    target 287
-    label "PARENT_OF"
-  ]
-  edge [
-    source 283
-    target 288
-    label "PARENT_OF"
-  ]
   node [
     id 285
     label "Mystipola"
   ]
-  edge [
-    source 285
-    target 283
-    label "SYNONYM_OF"
-  ]
   node [
     id 284
     label "Propanurgica"
-  ]
-  edge [
-    source 284
-    target 283
-    label "SYNONYM_OF"
   ]
   node [
     id 286
@@ -2716,19 +1187,9 @@ graph [
     id 296
     label "Parymenopus"
   ]
-  edge [
-    source 296
-    target 298
-    label "PARENT_OF"
-  ]
   node [
     id 297
     label "Parhymenopus"
-  ]
-  edge [
-    source 297
-    target 296
-    label "SYNONYM_OF"
   ]
   node [
     id 298
@@ -2738,29 +1199,9 @@ graph [
     id 299
     label "Pseudocreobotra"
   ]
-  edge [
-    source 299
-    target 304
-    label "PARENT_OF"
-  ]
-  edge [
-    source 299
-    target 302
-    label "PARENT_OF"
-  ]
-  edge [
-    source 299
-    target 301
-    label "PARENT_OF"
-  ]
   node [
     id 300
     label "Theomantis"
-  ]
-  edge [
-    source 300
-    target 299
-    label "SYNONYM_OF"
   ]
   node [
     id 301
@@ -2774,11 +1215,6 @@ graph [
     id 303
     label "Pseudocreobotra ocellaria"
   ]
-  edge [
-    source 303
-    target 302
-    label "SYNONYM_OF"
-  ]
   node [
     id 304
     label "Pseudocreobotra wahlbergi"
@@ -2786,56 +1222,6 @@ graph [
   node [
     id 305
     label "Pseudoharpax"
-  ]
-  edge [
-    source 305
-    target 316
-    label "PARENT_OF"
-  ]
-  edge [
-    source 305
-    target 313
-    label "PARENT_OF"
-  ]
-  edge [
-    source 305
-    target 314
-    label "PARENT_OF"
-  ]
-  edge [
-    source 305
-    target 311
-    label "PARENT_OF"
-  ]
-  edge [
-    source 305
-    target 312
-    label "PARENT_OF"
-  ]
-  edge [
-    source 305
-    target 309
-    label "PARENT_OF"
-  ]
-  edge [
-    source 305
-    target 310
-    label "PARENT_OF"
-  ]
-  edge [
-    source 305
-    target 307
-    label "PARENT_OF"
-  ]
-  edge [
-    source 305
-    target 308
-    label "PARENT_OF"
-  ]
-  edge [
-    source 305
-    target 306
-    label "PARENT_OF"
   ]
   node [
     id 306
@@ -2877,24 +1263,9 @@ graph [
     id 315
     label "Pseudoharpax laticollis"
   ]
-  edge [
-    source 315
-    target 314
-    label "SYNONYM_OF"
-  ]
   node [
     id 316
     label "Pseudoharpax virescens"
-  ]
-  edge [
-    source 316
-    target 317
-    label "PARENT_OF"
-  ]
-  edge [
-    source 316
-    target 318
-    label "PARENT_OF"
   ]
   node [
     id 317
@@ -2907,26 +1278,6 @@ graph [
   node [
     id 319
     label "Theopropus"
-  ]
-  edge [
-    source 319
-    target 322
-    label "PARENT_OF"
-  ]
-  edge [
-    source 319
-    target 321
-    label "PARENT_OF"
-  ]
-  edge [
-    source 319
-    target 325
-    label "PARENT_OF"
-  ]
-  edge [
-    source 319
-    target 320
-    label "PARENT_OF"
   ]
   node [
     id 320
@@ -2944,19 +1295,9 @@ graph [
     id 324
     label "Theopropus flavicans"
   ]
-  edge [
-    source 324
-    target 322
-    label "SYNONYM_OF"
-  ]
   node [
     id 323
     label "Theopropus praecontatrix"
-  ]
-  edge [
-    source 323
-    target 322
-    label "SYNONYM_OF"
   ]
   node [
     id 325
@@ -2966,73 +1307,13 @@ graph [
     id 326
     label "Oxypilinae"
   ]
-  edge [
-    source 326
-    target 327
-    label "PARENT_OF"
-  ]
   node [
     id 327
     label "Oxypilini"
   ]
-  edge [
-    source 327
-    target 389
-    label "PARENT_OF"
-  ]
-  edge [
-    source 327
-    target 386
-    label "PARENT_OF"
-  ]
-  edge [
-    source 327
-    target 381
-    label "PARENT_OF"
-  ]
-  edge [
-    source 327
-    target 334
-    label "PARENT_OF"
-  ]
-  edge [
-    source 327
-    target 328
-    label "PARENT_OF"
-  ]
-  edge [
-    source 327
-    target 349
-    label "PARENT_OF"
-  ]
   node [
     id 328
     label "Ceratomantis"
-  ]
-  edge [
-    source 328
-    target 330
-    label "PARENT_OF"
-  ]
-  edge [
-    source 328
-    target 329
-    label "PARENT_OF"
-  ]
-  edge [
-    source 328
-    target 332
-    label "PARENT_OF"
-  ]
-  edge [
-    source 328
-    target 331
-    label "PARENT_OF"
-  ]
-  edge [
-    source 328
-    target 333
-    label "PARENT_OF"
   ]
   node [
     id 329
@@ -3058,69 +1339,9 @@ graph [
     id 334
     label "Junodia"
   ]
-  edge [
-    source 334
-    target 336
-    label "PARENT_OF"
-  ]
-  edge [
-    source 334
-    target 345
-    label "PARENT_OF"
-  ]
-  edge [
-    source 334
-    target 346
-    label "PARENT_OF"
-  ]
-  edge [
-    source 334
-    target 347
-    label "PARENT_OF"
-  ]
-  edge [
-    source 334
-    target 348
-    label "PARENT_OF"
-  ]
-  edge [
-    source 334
-    target 337
-    label "PARENT_OF"
-  ]
-  edge [
-    source 334
-    target 338
-    label "PARENT_OF"
-  ]
-  edge [
-    source 334
-    target 340
-    label "PARENT_OF"
-  ]
-  edge [
-    source 334
-    target 341
-    label "PARENT_OF"
-  ]
-  edge [
-    source 334
-    target 343
-    label "PARENT_OF"
-  ]
-  edge [
-    source 334
-    target 344
-    label "PARENT_OF"
-  ]
   node [
     id 335
     label "Euoxypilus"
-  ]
-  edge [
-    source 335
-    target 334
-    label "SYNONYM_OF"
   ]
   node [
     id 336
@@ -3138,11 +1359,6 @@ graph [
     id 339
     label "Junodia maculata"
   ]
-  edge [
-    source 339
-    target 338
-    label "SYNONYM_OF"
-  ]
   node [
     id 340
     label "Junodia hararensis"
@@ -3154,11 +1370,6 @@ graph [
   node [
     id 342
     label "Junodia olseni"
-  ]
-  edge [
-    source 342
-    target 341
-    label "SYNONYM_OF"
   ]
   node [
     id 343
@@ -3188,63 +1399,13 @@ graph [
     id 349
     label "Oxypilus"
   ]
-  edge [
-    source 349
-    target 362
-    label "PARENT_OF"
-  ]
-  edge [
-    source 349
-    target 350
-    label "PARENT_OF"
-  ]
   node [
     id 350
     label "Anoxypilus"
   ]
-  edge [
-    source 350
-    target 361
-    label "PARENT_OF"
-  ]
-  edge [
-    source 350
-    target 356
-    label "PARENT_OF"
-  ]
-  edge [
-    source 350
-    target 355
-    label "PARENT_OF"
-  ]
-  edge [
-    source 350
-    target 353
-    label "PARENT_OF"
-  ]
-  edge [
-    source 350
-    target 360
-    label "PARENT_OF"
-  ]
-  edge [
-    source 350
-    target 358
-    label "PARENT_OF"
-  ]
-  edge [
-    source 350
-    target 352
-    label "PARENT_OF"
-  ]
   node [
     id 351
     label "Setoxypilus"
-  ]
-  edge [
-    source 351
-    target 350
-    label "SYNONYM_OF"
   ]
   node [
     id 352
@@ -3258,11 +1419,6 @@ graph [
     id 354
     label "Mantis nasutus"
   ]
-  edge [
-    source 354
-    target 353
-    label "SYNONYM_OF"
-  ]
   node [
     id 355
     label "Oxypilus inscriptus"
@@ -3275,11 +1431,6 @@ graph [
     id 357
     label "Oxypilus nigericus"
   ]
-  edge [
-    source 357
-    target 356
-    label "SYNONYM_OF"
-  ]
   node [
     id 358
     label "Oxypilus polyacanthus"
@@ -3287,11 +1438,6 @@ graph [
   node [
     id 359
     label "Oxypilus basilewskyi"
-  ]
-  edge [
-    source 359
-    target 358
-    label "SYNONYM_OF"
   ]
   node [
     id 360
@@ -3305,91 +1451,6 @@ graph [
     id 362
     label "Oxypilus"
   ]
-  edge [
-    source 362
-    target 363
-    label "PARENT_OF"
-  ]
-  edge [
-    source 362
-    target 368
-    label "PARENT_OF"
-  ]
-  edge [
-    source 362
-    target 367
-    label "PARENT_OF"
-  ]
-  edge [
-    source 362
-    target 366
-    label "PARENT_OF"
-  ]
-  edge [
-    source 362
-    target 365
-    label "PARENT_OF"
-  ]
-  edge [
-    source 362
-    target 379
-    label "PARENT_OF"
-  ]
-  edge [
-    source 362
-    target 380
-    label "PARENT_OF"
-  ]
-  edge [
-    source 362
-    target 377
-    label "PARENT_OF"
-  ]
-  edge [
-    source 362
-    target 378
-    label "PARENT_OF"
-  ]
-  edge [
-    source 362
-    target 371
-    label "PARENT_OF"
-  ]
-  edge [
-    source 362
-    target 372
-    label "PARENT_OF"
-  ]
-  edge [
-    source 362
-    target 369
-    label "PARENT_OF"
-  ]
-  edge [
-    source 362
-    target 370
-    label "PARENT_OF"
-  ]
-  edge [
-    source 362
-    target 375
-    label "PARENT_OF"
-  ]
-  edge [
-    source 362
-    target 376
-    label "PARENT_OF"
-  ]
-  edge [
-    source 362
-    target 373
-    label "PARENT_OF"
-  ]
-  edge [
-    source 362
-    target 374
-    label "PARENT_OF"
-  ]
   node [
     id 363
     label "Oxypilus annulatus"
@@ -3397,11 +1458,6 @@ graph [
   node [
     id 364
     label "Oxypilus distinctus"
-  ]
-  edge [
-    source 364
-    target 363
-    label "SYNONYM_OF"
   ]
   node [
     id 365
@@ -3471,29 +1527,9 @@ graph [
     id 381
     label "Pachymantis"
   ]
-  edge [
-    source 381
-    target 385
-    label "PARENT_OF"
-  ]
-  edge [
-    source 381
-    target 383
-    label "PARENT_OF"
-  ]
-  edge [
-    source 381
-    target 384
-    label "PARENT_OF"
-  ]
   node [
     id 382
     label "Echinomastoharpax"
-  ]
-  edge [
-    source 382
-    target 381
-    label "SYNONYM_OF"
   ]
   node [
     id 383
@@ -3511,11 +1547,6 @@ graph [
     id 386
     label "Pseudoxypilus"
   ]
-  edge [
-    source 386
-    target 387
-    label "PARENT_OF"
-  ]
   node [
     id 387
     label "Pseudoxypilus hemerobius"
@@ -3524,22 +1555,1972 @@ graph [
     id 388
     label "Pseudoxypilus neuroptera"
   ]
-  edge [
-    source 388
-    target 387
-    label "SYNONYM_OF"
-  ]
   node [
     id 389
     label "Triaenocorypha"
   ]
-  edge [
-    source 389
-    target 390
-    label "PARENT_OF"
-  ]
   node [
     id 390
     label "Triaenocorypha dohertyi"
+  ]
+  edge [
+    source 0
+    target 1
+    label "parent_of"
+  ]
+  edge [
+    source 1
+    target 326
+    label "parent_of"
+  ]
+  edge [
+    source 1
+    target 209
+    label "parent_of"
+  ]
+  edge [
+    source 1
+    target 192
+    label "parent_of"
+  ]
+  edge [
+    source 1
+    target 2
+    label "parent_of"
+  ]
+  edge [
+    source 2
+    target 3
+    label "parent_of"
+  ]
+  edge [
+    source 3
+    target 190
+    label "parent_of"
+  ]
+  edge [
+    source 3
+    target 185
+    label "parent_of"
+  ]
+  edge [
+    source 3
+    target 187
+    label "parent_of"
+  ]
+  edge [
+    source 3
+    target 152
+    label "parent_of"
+  ]
+  edge [
+    source 3
+    target 143
+    label "parent_of"
+  ]
+  edge [
+    source 3
+    target 139
+    label "parent_of"
+  ]
+  edge [
+    source 3
+    target 113
+    label "parent_of"
+  ]
+  edge [
+    source 3
+    target 110
+    label "parent_of"
+  ]
+  edge [
+    source 3
+    target 81
+    label "parent_of"
+  ]
+  edge [
+    source 3
+    target 87
+    label "parent_of"
+  ]
+  edge [
+    source 3
+    target 74
+    label "parent_of"
+  ]
+  edge [
+    source 3
+    target 79
+    label "parent_of"
+  ]
+  edge [
+    source 3
+    target 72
+    label "parent_of"
+  ]
+  edge [
+    source 3
+    target 62
+    label "parent_of"
+  ]
+  edge [
+    source 3
+    target 60
+    label "parent_of"
+  ]
+  edge [
+    source 3
+    target 45
+    label "parent_of"
+  ]
+  edge [
+    source 3
+    target 29
+    label "parent_of"
+  ]
+  edge [
+    source 3
+    target 4
+    label "parent_of"
+  ]
+  edge [
+    source 4
+    target 27
+    label "parent_of"
+  ]
+  edge [
+    source 4
+    target 28
+    label "parent_of"
+  ]
+  edge [
+    source 4
+    target 25
+    label "parent_of"
+  ]
+  edge [
+    source 4
+    target 26
+    label "parent_of"
+  ]
+  edge [
+    source 4
+    target 21
+    label "parent_of"
+  ]
+  edge [
+    source 4
+    target 22
+    label "parent_of"
+  ]
+  edge [
+    source 4
+    target 19
+    label "parent_of"
+  ]
+  edge [
+    source 4
+    target 17
+    label "parent_of"
+  ]
+  edge [
+    source 4
+    target 18
+    label "parent_of"
+  ]
+  edge [
+    source 4
+    target 15
+    label "parent_of"
+  ]
+  edge [
+    source 4
+    target 14
+    label "parent_of"
+  ]
+  edge [
+    source 4
+    target 13
+    label "parent_of"
+  ]
+  edge [
+    source 4
+    target 12
+    label "parent_of"
+  ]
+  edge [
+    source 4
+    target 11
+    label "parent_of"
+  ]
+  edge [
+    source 4
+    target 10
+    label "parent_of"
+  ]
+  edge [
+    source 4
+    target 9
+    label "parent_of"
+  ]
+  edge [
+    source 4
+    target 8
+    label "parent_of"
+  ]
+  edge [
+    source 4
+    target 7
+    label "parent_of"
+  ]
+  edge [
+    source 4
+    target 6
+    label "parent_of"
+  ]
+  edge [
+    source 4
+    target 5
+    label "parent_of"
+  ]
+  edge [
+    source 16
+    target 18
+    label "proparte_synonym_of"
+  ]
+  edge [
+    source 16
+    target 18
+    label "basionym_of"
+  ]
+  edge [
+    source 16
+    target 15
+    label "synonym_of"
+  ]
+  edge [
+    source 20
+    target 19
+    label "synonym_of"
+  ]
+  edge [
+    source 24
+    target 22
+    label "synonym_of"
+  ]
+  edge [
+    source 23
+    target 22
+    label "synonym_of"
+  ]
+  edge [
+    source 29
+    target 44
+    label "parent_of"
+  ]
+  edge [
+    source 29
+    target 43
+    label "parent_of"
+  ]
+  edge [
+    source 29
+    target 40
+    label "parent_of"
+  ]
+  edge [
+    source 29
+    target 34
+    label "parent_of"
+  ]
+  edge [
+    source 29
+    target 33
+    label "parent_of"
+  ]
+  edge [
+    source 29
+    target 35
+    label "parent_of"
+  ]
+  edge [
+    source 29
+    target 31
+    label "parent_of"
+  ]
+  edge [
+    source 29
+    target 32
+    label "parent_of"
+  ]
+  edge [
+    source 30
+    target 29
+    label "synonym_of"
+  ]
+  edge [
+    source 39
+    target 35
+    label "synonym_of"
+  ]
+  edge [
+    source 38
+    target 35
+    label "synonym_of"
+  ]
+  edge [
+    source 37
+    target 35
+    label "synonym_of"
+  ]
+  edge [
+    source 36
+    target 35
+    label "synonym_of"
+  ]
+  edge [
+    source 42
+    target 40
+    label "synonym_of"
+  ]
+  edge [
+    source 41
+    target 40
+    label "synonym_of"
+  ]
+  edge [
+    source 45
+    target 57
+    label "parent_of"
+  ]
+  edge [
+    source 45
+    target 58
+    label "parent_of"
+  ]
+  edge [
+    source 45
+    target 59
+    label "parent_of"
+  ]
+  edge [
+    source 45
+    target 53
+    label "parent_of"
+  ]
+  edge [
+    source 45
+    target 55
+    label "parent_of"
+  ]
+  edge [
+    source 45
+    target 56
+    label "parent_of"
+  ]
+  edge [
+    source 45
+    target 49
+    label "parent_of"
+  ]
+  edge [
+    source 45
+    target 51
+    label "parent_of"
+  ]
+  edge [
+    source 45
+    target 52
+    label "parent_of"
+  ]
+  edge [
+    source 45
+    target 48
+    label "parent_of"
+  ]
+  edge [
+    source 47
+    target 45
+    label "synonym_of"
+  ]
+  edge [
+    source 46
+    target 45
+    label "synonym_of"
+  ]
+  edge [
+    source 50
+    target 49
+    label "synonym_of"
+  ]
+  edge [
+    source 54
+    target 53
+    label "synonym_of"
+  ]
+  edge [
+    source 60
+    target 61
+    label "parent_of"
+  ]
+  edge [
+    source 62
+    target 68
+    label "parent_of"
+  ]
+  edge [
+    source 62
+    target 67
+    label "parent_of"
+  ]
+  edge [
+    source 62
+    target 66
+    label "parent_of"
+  ]
+  edge [
+    source 62
+    target 65
+    label "parent_of"
+  ]
+  edge [
+    source 62
+    target 71
+    label "parent_of"
+  ]
+  edge [
+    source 62
+    target 70
+    label "parent_of"
+  ]
+  edge [
+    source 62
+    target 69
+    label "parent_of"
+  ]
+  edge [
+    source 62
+    target 64
+    label "parent_of"
+  ]
+  edge [
+    source 63
+    target 62
+    label "synonym_of"
+  ]
+  edge [
+    source 72
+    target 73
+    label "parent_of"
+  ]
+  edge [
+    source 74
+    target 76
+    label "parent_of"
+  ]
+  edge [
+    source 74
+    target 75
+    label "parent_of"
+  ]
+  edge [
+    source 74
+    target 78
+    label "parent_of"
+  ]
+  edge [
+    source 74
+    target 77
+    label "parent_of"
+  ]
+  edge [
+    source 79
+    target 80
+    label "parent_of"
+  ]
+  edge [
+    source 81
+    target 84
+    label "parent_of"
+  ]
+  edge [
+    source 81
+    target 86
+    label "parent_of"
+  ]
+  edge [
+    source 83
+    target 81
+    label "synonym_of"
+  ]
+  edge [
+    source 82
+    target 81
+    label "synonym_of"
+  ]
+  edge [
+    source 85
+    target 84
+    label "synonym_of"
+  ]
+  edge [
+    source 87
+    target 106
+    label "parent_of"
+  ]
+  edge [
+    source 87
+    target 108
+    label "parent_of"
+  ]
+  edge [
+    source 87
+    target 107
+    label "parent_of"
+  ]
+  edge [
+    source 87
+    target 109
+    label "parent_of"
+  ]
+  edge [
+    source 87
+    target 98
+    label "parent_of"
+  ]
+  edge [
+    source 87
+    target 97
+    label "parent_of"
+  ]
+  edge [
+    source 87
+    target 100
+    label "parent_of"
+  ]
+  edge [
+    source 87
+    target 99
+    label "parent_of"
+  ]
+  edge [
+    source 87
+    target 102
+    label "parent_of"
+  ]
+  edge [
+    source 87
+    target 101
+    label "parent_of"
+  ]
+  edge [
+    source 87
+    target 104
+    label "parent_of"
+  ]
+  edge [
+    source 87
+    target 103
+    label "parent_of"
+  ]
+  edge [
+    source 87
+    target 91
+    label "parent_of"
+  ]
+  edge [
+    source 87
+    target 92
+    label "parent_of"
+  ]
+  edge [
+    source 87
+    target 90
+    label "parent_of"
+  ]
+  edge [
+    source 87
+    target 95
+    label "parent_of"
+  ]
+  edge [
+    source 87
+    target 96
+    label "parent_of"
+  ]
+  edge [
+    source 87
+    target 93
+    label "parent_of"
+  ]
+  edge [
+    source 87
+    target 94
+    label "parent_of"
+  ]
+  edge [
+    source 89
+    target 87
+    label "synonym_of"
+  ]
+  edge [
+    source 88
+    target 87
+    label "synonym_of"
+  ]
+  edge [
+    source 105
+    target 104
+    label "synonym_of"
+  ]
+  edge [
+    source 110
+    target 112
+    label "parent_of"
+  ]
+  edge [
+    source 110
+    target 111
+    label "parent_of"
+  ]
+  edge [
+    source 113
+    target 136
+    label "parent_of"
+  ]
+  edge [
+    source 113
+    target 132
+    label "parent_of"
+  ]
+  edge [
+    source 113
+    target 129
+    label "parent_of"
+  ]
+  edge [
+    source 113
+    target 130
+    label "parent_of"
+  ]
+  edge [
+    source 113
+    target 137
+    label "parent_of"
+  ]
+  edge [
+    source 113
+    target 138
+    label "parent_of"
+  ]
+  edge [
+    source 113
+    target 121
+    label "parent_of"
+  ]
+  edge [
+    source 113
+    target 122
+    label "parent_of"
+  ]
+  edge [
+    source 113
+    target 123
+    label "parent_of"
+  ]
+  edge [
+    source 113
+    target 124
+    label "parent_of"
+  ]
+  edge [
+    source 113
+    target 125
+    label "parent_of"
+  ]
+  edge [
+    source 113
+    target 126
+    label "parent_of"
+  ]
+  edge [
+    source 113
+    target 127
+    label "parent_of"
+  ]
+  edge [
+    source 113
+    target 128
+    label "parent_of"
+  ]
+  edge [
+    source 113
+    target 116
+    label "parent_of"
+  ]
+  edge [
+    source 113
+    target 117
+    label "parent_of"
+  ]
+  edge [
+    source 113
+    target 118
+    label "parent_of"
+  ]
+  edge [
+    source 113
+    target 119
+    label "parent_of"
+  ]
+  edge [
+    source 113
+    target 120
+    label "parent_of"
+  ]
+  edge [
+    source 115
+    target 113
+    label "synonym_of"
+  ]
+  edge [
+    source 114
+    target 113
+    label "synonym_of"
+  ]
+  edge [
+    source 131
+    target 130
+    label "synonym_of"
+  ]
+  edge [
+    source 135
+    target 132
+    label "synonym_of"
+  ]
+  edge [
+    source 134
+    target 132
+    label "synonym_of"
+  ]
+  edge [
+    source 133
+    target 132
+    label "synonym_of"
+  ]
+  edge [
+    source 139
+    target 141
+    label "parent_of"
+  ]
+  edge [
+    source 139
+    target 142
+    label "parent_of"
+  ]
+  edge [
+    source 139
+    target 140
+    label "parent_of"
+  ]
+  edge [
+    source 143
+    target 150
+    label "parent_of"
+  ]
+  edge [
+    source 143
+    target 149
+    label "parent_of"
+  ]
+  edge [
+    source 143
+    target 148
+    label "parent_of"
+  ]
+  edge [
+    source 143
+    target 146
+    label "parent_of"
+  ]
+  edge [
+    source 143
+    target 145
+    label "parent_of"
+  ]
+  edge [
+    source 144
+    target 143
+    label "synonym_of"
+  ]
+  edge [
+    source 147
+    target 146
+    label "synonym_of"
+  ]
+  edge [
+    source 151
+    target 150
+    label "synonym_of"
+  ]
+  edge [
+    source 152
+    target 164
+    label "parent_of"
+  ]
+  edge [
+    source 152
+    target 153
+    label "parent_of"
+  ]
+  edge [
+    source 164
+    target 182
+    label "parent_of"
+  ]
+  edge [
+    source 164
+    target 184
+    label "parent_of"
+  ]
+  edge [
+    source 164
+    target 183
+    label "parent_of"
+  ]
+  edge [
+    source 164
+    target 178
+    label "parent_of"
+  ]
+  edge [
+    source 164
+    target 177
+    label "parent_of"
+  ]
+  edge [
+    source 164
+    target 180
+    label "parent_of"
+  ]
+  edge [
+    source 164
+    target 179
+    label "parent_of"
+  ]
+  edge [
+    source 164
+    target 166
+    label "parent_of"
+  ]
+  edge [
+    source 164
+    target 167
+    label "parent_of"
+  ]
+  edge [
+    source 164
+    target 168
+    label "parent_of"
+  ]
+  edge [
+    source 164
+    target 173
+    label "parent_of"
+  ]
+  edge [
+    source 164
+    target 174
+    label "parent_of"
+  ]
+  edge [
+    source 164
+    target 169
+    label "parent_of"
+  ]
+  edge [
+    source 164
+    target 170
+    label "parent_of"
+  ]
+  edge [
+    source 164
+    target 171
+    label "parent_of"
+  ]
+  edge [
+    source 164
+    target 172
+    label "parent_of"
+  ]
+  edge [
+    source 165
+    target 164
+    label "synonym_of"
+  ]
+  edge [
+    source 176
+    target 174
+    label "synonym_of"
+  ]
+  edge [
+    source 175
+    target 174
+    label "synonym_of"
+  ]
+  edge [
+    source 181
+    target 180
+    label "synonym_of"
+  ]
+  edge [
+    source 153
+    target 161
+    label "parent_of"
+  ]
+  edge [
+    source 153
+    target 162
+    label "parent_of"
+  ]
+  edge [
+    source 153
+    target 163
+    label "parent_of"
+  ]
+  edge [
+    source 153
+    target 160
+    label "parent_of"
+  ]
+  edge [
+    source 153
+    target 159
+    label "parent_of"
+  ]
+  edge [
+    source 153
+    target 158
+    label "parent_of"
+  ]
+  edge [
+    source 153
+    target 157
+    label "parent_of"
+  ]
+  edge [
+    source 153
+    target 156
+    label "parent_of"
+  ]
+  edge [
+    source 153
+    target 155
+    label "parent_of"
+  ]
+  edge [
+    source 153
+    target 154
+    label "parent_of"
+  ]
+  edge [
+    source 185
+    target 186
+    label "parent_of"
+  ]
+  edge [
+    source 187
+    target 189
+    label "parent_of"
+  ]
+  edge [
+    source 187
+    target 188
+    label "parent_of"
+  ]
+  edge [
+    source 190
+    target 191
+    label "parent_of"
+  ]
+  edge [
+    source 192
+    target 193
+    label "parent_of"
+  ]
+  edge [
+    source 193
+    target 196
+    label "parent_of"
+  ]
+  edge [
+    source 193
+    target 194
+    label "parent_of"
+  ]
+  edge [
+    source 193
+    target 201
+    label "parent_of"
+  ]
+  edge [
+    source 193
+    target 205
+    label "parent_of"
+  ]
+  edge [
+    source 194
+    target 195
+    label "parent_of"
+  ]
+  edge [
+    source 196
+    target 200
+    label "parent_of"
+  ]
+  edge [
+    source 196
+    target 197
+    label "parent_of"
+  ]
+  edge [
+    source 196
+    target 198
+    label "parent_of"
+  ]
+  edge [
+    source 199
+    target 198
+    label "synonym_of"
+  ]
+  edge [
+    source 201
+    target 202
+    label "parent_of"
+  ]
+  edge [
+    source 202
+    target 203
+    label "parent_of"
+  ]
+  edge [
+    source 202
+    target 204
+    label "parent_of"
+  ]
+  edge [
+    source 205
+    target 207
+    label "parent_of"
+  ]
+  edge [
+    source 205
+    target 208
+    label "parent_of"
+  ]
+  edge [
+    source 205
+    target 206
+    label "parent_of"
+  ]
+  edge [
+    source 209
+    target 210
+    label "parent_of"
+  ]
+  edge [
+    source 210
+    target 299
+    label "parent_of"
+  ]
+  edge [
+    source 210
+    target 296
+    label "parent_of"
+  ]
+  edge [
+    source 210
+    target 319
+    label "parent_of"
+  ]
+  edge [
+    source 210
+    target 305
+    label "parent_of"
+  ]
+  edge [
+    source 210
+    target 265
+    label "parent_of"
+  ]
+  edge [
+    source 210
+    target 259
+    label "parent_of"
+  ]
+  edge [
+    source 210
+    target 283
+    label "parent_of"
+  ]
+  edge [
+    source 210
+    target 278
+    label "parent_of"
+  ]
+  edge [
+    source 210
+    target 276
+    label "parent_of"
+  ]
+  edge [
+    source 210
+    target 232
+    label "parent_of"
+  ]
+  edge [
+    source 210
+    target 211
+    label "parent_of"
+  ]
+  edge [
+    source 210
+    target 213
+    label "parent_of"
+  ]
+  edge [
+    source 210
+    target 224
+    label "parent_of"
+  ]
+  edge [
+    source 210
+    target 221
+    label "parent_of"
+  ]
+  edge [
+    source 211
+    target 212
+    label "parent_of"
+  ]
+  edge [
+    source 213
+    target 216
+    label "parent_of"
+  ]
+  edge [
+    source 213
+    target 220
+    label "parent_of"
+  ]
+  edge [
+    source 213
+    target 218
+    label "parent_of"
+  ]
+  edge [
+    source 213
+    target 217
+    label "parent_of"
+  ]
+  edge [
+    source 215
+    target 213
+    label "synonym_of"
+  ]
+  edge [
+    source 214
+    target 213
+    label "synonym_of"
+  ]
+  edge [
+    source 219
+    target 218
+    label "synonym_of"
+  ]
+  edge [
+    source 221
+    target 222
+    label "parent_of"
+  ]
+  edge [
+    source 223
+    target 222
+    label "synonym_of"
+  ]
+  edge [
+    source 224
+    target 225
+    label "parent_of"
+  ]
+  edge [
+    source 224
+    target 227
+    label "parent_of"
+  ]
+  edge [
+    source 224
+    target 228
+    label "parent_of"
+  ]
+  edge [
+    source 224
+    target 230
+    label "parent_of"
+  ]
+  edge [
+    source 224
+    target 231
+    label "parent_of"
+  ]
+  edge [
+    source 226
+    target 225
+    label "synonym_of"
+  ]
+  edge [
+    source 229
+    target 228
+    label "synonym_of"
+  ]
+  edge [
+    source 232
+    target 258
+    label "parent_of"
+  ]
+  edge [
+    source 232
+    target 257
+    label "parent_of"
+  ]
+  edge [
+    source 232
+    target 242
+    label "parent_of"
+  ]
+  edge [
+    source 232
+    target 241
+    label "parent_of"
+  ]
+  edge [
+    source 232
+    target 244
+    label "parent_of"
+  ]
+  edge [
+    source 232
+    target 243
+    label "parent_of"
+  ]
+  edge [
+    source 232
+    target 246
+    label "parent_of"
+  ]
+  edge [
+    source 232
+    target 245
+    label "parent_of"
+  ]
+  edge [
+    source 232
+    target 248
+    label "parent_of"
+  ]
+  edge [
+    source 232
+    target 247
+    label "parent_of"
+  ]
+  edge [
+    source 232
+    target 250
+    label "parent_of"
+  ]
+  edge [
+    source 232
+    target 249
+    label "parent_of"
+  ]
+  edge [
+    source 232
+    target 252
+    label "parent_of"
+  ]
+  edge [
+    source 232
+    target 251
+    label "parent_of"
+  ]
+  edge [
+    source 232
+    target 254
+    label "parent_of"
+  ]
+  edge [
+    source 232
+    target 253
+    label "parent_of"
+  ]
+  edge [
+    source 232
+    target 256
+    label "parent_of"
+  ]
+  edge [
+    source 232
+    target 255
+    label "parent_of"
+  ]
+  edge [
+    source 232
+    target 236
+    label "parent_of"
+  ]
+  edge [
+    source 232
+    target 237
+    label "parent_of"
+  ]
+  edge [
+    source 232
+    target 239
+    label "parent_of"
+  ]
+  edge [
+    source 235
+    target 232
+    label "synonym_of"
+  ]
+  edge [
+    source 234
+    target 232
+    label "synonym_of"
+  ]
+  edge [
+    source 233
+    target 232
+    label "synonym_of"
+  ]
+  edge [
+    source 238
+    target 237
+    label "synonym_of"
+  ]
+  edge [
+    source 240
+    target 239
+    label "synonym_of"
+  ]
+  edge [
+    source 259
+    target 262
+    label "parent_of"
+  ]
+  edge [
+    source 259
+    target 264
+    label "parent_of"
+  ]
+  edge [
+    source 259
+    target 260
+    label "parent_of"
+  ]
+  edge [
+    source 261
+    target 260
+    label "synonym_of"
+  ]
+  edge [
+    source 263
+    target 262
+    label "synonym_of"
+  ]
+  edge [
+    source 265
+    target 270
+    label "parent_of"
+  ]
+  edge [
+    source 265
+    target 269
+    label "parent_of"
+  ]
+  edge [
+    source 265
+    target 268
+    label "parent_of"
+  ]
+  edge [
+    source 267
+    target 265
+    label "synonym_of"
+  ]
+  edge [
+    source 266
+    target 265
+    label "synonym_of"
+  ]
+  edge [
+    source 275
+    target 270
+    label "synonym_of"
+  ]
+  edge [
+    source 274
+    target 270
+    label "synonym_of"
+  ]
+  edge [
+    source 273
+    target 270
+    label "synonym_of"
+  ]
+  edge [
+    source 272
+    target 270
+    label "synonym_of"
+  ]
+  edge [
+    source 271
+    target 270
+    label "synonym_of"
+  ]
+  edge [
+    source 276
+    target 277
+    label "parent_of"
+  ]
+  edge [
+    source 278
+    target 281
+    label "parent_of"
+  ]
+  edge [
+    source 278
+    target 282
+    label "parent_of"
+  ]
+  edge [
+    source 278
+    target 280
+    label "parent_of"
+  ]
+  edge [
+    source 279
+    target 278
+    label "synonym_of"
+  ]
+  edge [
+    source 283
+    target 295
+    label "parent_of"
+  ]
+  edge [
+    source 283
+    target 294
+    label "parent_of"
+  ]
+  edge [
+    source 283
+    target 293
+    label "parent_of"
+  ]
+  edge [
+    source 283
+    target 292
+    label "parent_of"
+  ]
+  edge [
+    source 283
+    target 291
+    label "parent_of"
+  ]
+  edge [
+    source 283
+    target 290
+    label "parent_of"
+  ]
+  edge [
+    source 283
+    target 289
+    label "parent_of"
+  ]
+  edge [
+    source 283
+    target 286
+    label "parent_of"
+  ]
+  edge [
+    source 283
+    target 287
+    label "parent_of"
+  ]
+  edge [
+    source 283
+    target 288
+    label "parent_of"
+  ]
+  edge [
+    source 285
+    target 283
+    label "synonym_of"
+  ]
+  edge [
+    source 284
+    target 283
+    label "synonym_of"
+  ]
+  edge [
+    source 296
+    target 298
+    label "parent_of"
+  ]
+  edge [
+    source 297
+    target 296
+    label "synonym_of"
+  ]
+  edge [
+    source 299
+    target 304
+    label "parent_of"
+  ]
+  edge [
+    source 299
+    target 302
+    label "parent_of"
+  ]
+  edge [
+    source 299
+    target 301
+    label "parent_of"
+  ]
+  edge [
+    source 300
+    target 299
+    label "synonym_of"
+  ]
+  edge [
+    source 303
+    target 302
+    label "synonym_of"
+  ]
+  edge [
+    source 305
+    target 316
+    label "parent_of"
+  ]
+  edge [
+    source 305
+    target 313
+    label "parent_of"
+  ]
+  edge [
+    source 305
+    target 314
+    label "parent_of"
+  ]
+  edge [
+    source 305
+    target 311
+    label "parent_of"
+  ]
+  edge [
+    source 305
+    target 312
+    label "parent_of"
+  ]
+  edge [
+    source 305
+    target 309
+    label "parent_of"
+  ]
+  edge [
+    source 305
+    target 310
+    label "parent_of"
+  ]
+  edge [
+    source 305
+    target 307
+    label "parent_of"
+  ]
+  edge [
+    source 305
+    target 308
+    label "parent_of"
+  ]
+  edge [
+    source 305
+    target 306
+    label "parent_of"
+  ]
+  edge [
+    source 315
+    target 314
+    label "synonym_of"
+  ]
+  edge [
+    source 316
+    target 317
+    label "parent_of"
+  ]
+  edge [
+    source 316
+    target 318
+    label "parent_of"
+  ]
+  edge [
+    source 319
+    target 322
+    label "parent_of"
+  ]
+  edge [
+    source 319
+    target 321
+    label "parent_of"
+  ]
+  edge [
+    source 319
+    target 325
+    label "parent_of"
+  ]
+  edge [
+    source 319
+    target 320
+    label "parent_of"
+  ]
+  edge [
+    source 324
+    target 322
+    label "synonym_of"
+  ]
+  edge [
+    source 323
+    target 322
+    label "synonym_of"
+  ]
+  edge [
+    source 326
+    target 327
+    label "parent_of"
+  ]
+  edge [
+    source 327
+    target 389
+    label "parent_of"
+  ]
+  edge [
+    source 327
+    target 386
+    label "parent_of"
+  ]
+  edge [
+    source 327
+    target 381
+    label "parent_of"
+  ]
+  edge [
+    source 327
+    target 334
+    label "parent_of"
+  ]
+  edge [
+    source 327
+    target 328
+    label "parent_of"
+  ]
+  edge [
+    source 327
+    target 349
+    label "parent_of"
+  ]
+  edge [
+    source 328
+    target 330
+    label "parent_of"
+  ]
+  edge [
+    source 328
+    target 329
+    label "parent_of"
+  ]
+  edge [
+    source 328
+    target 332
+    label "parent_of"
+  ]
+  edge [
+    source 328
+    target 331
+    label "parent_of"
+  ]
+  edge [
+    source 328
+    target 333
+    label "parent_of"
+  ]
+  edge [
+    source 334
+    target 336
+    label "parent_of"
+  ]
+  edge [
+    source 334
+    target 345
+    label "parent_of"
+  ]
+  edge [
+    source 334
+    target 346
+    label "parent_of"
+  ]
+  edge [
+    source 334
+    target 347
+    label "parent_of"
+  ]
+  edge [
+    source 334
+    target 348
+    label "parent_of"
+  ]
+  edge [
+    source 334
+    target 337
+    label "parent_of"
+  ]
+  edge [
+    source 334
+    target 338
+    label "parent_of"
+  ]
+  edge [
+    source 334
+    target 340
+    label "parent_of"
+  ]
+  edge [
+    source 334
+    target 341
+    label "parent_of"
+  ]
+  edge [
+    source 334
+    target 343
+    label "parent_of"
+  ]
+  edge [
+    source 334
+    target 344
+    label "parent_of"
+  ]
+  edge [
+    source 335
+    target 334
+    label "synonym_of"
+  ]
+  edge [
+    source 339
+    target 338
+    label "synonym_of"
+  ]
+  edge [
+    source 342
+    target 341
+    label "synonym_of"
+  ]
+  edge [
+    source 349
+    target 362
+    label "parent_of"
+  ]
+  edge [
+    source 349
+    target 350
+    label "parent_of"
+  ]
+  edge [
+    source 350
+    target 361
+    label "parent_of"
+  ]
+  edge [
+    source 350
+    target 356
+    label "parent_of"
+  ]
+  edge [
+    source 350
+    target 355
+    label "parent_of"
+  ]
+  edge [
+    source 350
+    target 353
+    label "parent_of"
+  ]
+  edge [
+    source 350
+    target 360
+    label "parent_of"
+  ]
+  edge [
+    source 350
+    target 358
+    label "parent_of"
+  ]
+  edge [
+    source 350
+    target 352
+    label "parent_of"
+  ]
+  edge [
+    source 351
+    target 350
+    label "synonym_of"
+  ]
+  edge [
+    source 354
+    target 353
+    label "synonym_of"
+  ]
+  edge [
+    source 357
+    target 356
+    label "synonym_of"
+  ]
+  edge [
+    source 359
+    target 358
+    label "synonym_of"
+  ]
+  edge [
+    source 362
+    target 363
+    label "parent_of"
+  ]
+  edge [
+    source 362
+    target 368
+    label "parent_of"
+  ]
+  edge [
+    source 362
+    target 367
+    label "parent_of"
+  ]
+  edge [
+    source 362
+    target 366
+    label "parent_of"
+  ]
+  edge [
+    source 362
+    target 365
+    label "parent_of"
+  ]
+  edge [
+    source 362
+    target 379
+    label "parent_of"
+  ]
+  edge [
+    source 362
+    target 380
+    label "parent_of"
+  ]
+  edge [
+    source 362
+    target 377
+    label "parent_of"
+  ]
+  edge [
+    source 362
+    target 378
+    label "parent_of"
+  ]
+  edge [
+    source 362
+    target 371
+    label "parent_of"
+  ]
+  edge [
+    source 362
+    target 372
+    label "parent_of"
+  ]
+  edge [
+    source 362
+    target 369
+    label "parent_of"
+  ]
+  edge [
+    source 362
+    target 370
+    label "parent_of"
+  ]
+  edge [
+    source 362
+    target 375
+    label "parent_of"
+  ]
+  edge [
+    source 362
+    target 376
+    label "parent_of"
+  ]
+  edge [
+    source 362
+    target 373
+    label "parent_of"
+  ]
+  edge [
+    source 362
+    target 374
+    label "parent_of"
+  ]
+  edge [
+    source 364
+    target 363
+    label "synonym_of"
+  ]
+  edge [
+    source 381
+    target 385
+    label "parent_of"
+  ]
+  edge [
+    source 381
+    target 383
+    label "parent_of"
+  ]
+  edge [
+    source 381
+    target 384
+    label "parent_of"
+  ]
+  edge [
+    source 382
+    target 381
+    label "synonym_of"
+  ]
+  edge [
+    source 386
+    target 387
+    label "parent_of"
+  ]
+  edge [
+    source 388
+    target 387
+    label "synonym_of"
+  ]
+  edge [
+    source 389
+    target 390
+    label "parent_of"
   ]
 ]

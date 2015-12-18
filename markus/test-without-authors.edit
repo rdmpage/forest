@@ -12,12 +12,6 @@ delete|branch|Acromantis|Acromantis lilii
 delete|branch|Acromantis|Acromantis montana
 delete|branch|Acromantis|Acromantis moultoni
 delete|branch|Acromantis|Acromantis oligoneura
-delete|branch|Acromantis javana|Acromantis lilii
-delete|branch|Acromantis javana|Acromantis montana
-delete|branch|Acromantis javana|Acromantis montana
-delete|branch|Acromantis javana|Acromantis lilii
-delete|branch|Acromantis javana|Acromantis montana
-delete|branch|Acromantis javana|Acromantis montana
 delete|branch|Acromantis formosa|Acromantis oligoneura
 delete|branch|Anasigerpes alluaudi|Anasigerpes heydeni
 delete|branch|Anasigerpes crassipes|Anasigerpes heydeni
@@ -120,12 +114,6 @@ insert|branch|Acromantis|Acromantis lilii
 insert|branch|Acromantis|Acromantis montana
 insert|branch|Acromantis|Acromantis moultoni
 insert|branch|Acromantis|Acromantis oligoneura
-insert|branch|Acromantis javana|Acromantis lilii
-insert|branch|Acromantis javana|Acromantis montana
-insert|branch|Acromantis javana|Acromantis montana
-insert|branch|Acromantis javana|Acromantis lilii
-insert|branch|Acromantis javana|Acromantis montana
-insert|branch|Acromantis javana|Acromantis montana
 insert|branch|Acromantis formosa|Acromantis oligoneura
 insert|branch|Anasigerpes alluaudi|Anasigerpes heydeni
 insert|branch|Anasigerpes crassipes|Anasigerpes heydeni
