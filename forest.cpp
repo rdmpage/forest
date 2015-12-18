@@ -382,6 +382,17 @@ int main( int argc, char *argv[] )
 	{
 		cerr << filename1 << " has " << T1.number_of_nodes() << " nodes" << endl;
 	}
+	
+	// Is this a tree?
+	if (is_tree(T1))
+	{
+		cerr << filename1 << " is a tree" << endl;
+	}
+	else
+	{
+		cerr << filename1 << " is NOT a tree" << endl;
+		exit(1);	
+	}
 
 	const char* filename2 = argv[2];
 	MyTree T2;
@@ -408,6 +419,18 @@ int main( int argc, char *argv[] )
 	{
 		cerr << filename2 << " has " << T2.number_of_nodes() << " nodes" << endl;
 	}
+	
+	// Is this a tree?
+	if (is_tree(T2))
+	{
+		cerr << filename2 << " is a tree" << endl;
+	}
+	else
+	{
+		cerr << filename2 << " is NOT a tree" << endl;
+		exit(1);	
+	}
+	
 
 	set<string> C;
 	find_common_nodes(T1,T2,C);
