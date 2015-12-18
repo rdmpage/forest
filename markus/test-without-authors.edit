@@ -1,0 +1,231 @@
+delete|node|Mantodea
+delete|node|Anasigerpes
+insert|node|Mantodela
+insert|node|Anasiperpes
+delete|branch|Acromantini|Anaxarcha
+delete|branch|Acromantini|Chrysomantis
+delete|branch|Acromantini|Hestiasula
+delete|branch|Acromantini|Heliomantis
+delete|branch|Acromantini|Odontomantis
+delete|branch|Acromantini|Otomantis
+delete|branch|Acromantis|Acromantis lilii
+delete|branch|Acromantis|Acromantis montana
+delete|branch|Acromantis|Acromantis moultoni
+delete|branch|Acromantis|Acromantis oligoneura
+delete|branch|Acromantis javana|Acromantis lilii
+delete|branch|Acromantis javana|Acromantis montana
+delete|branch|Acromantis javana|Acromantis montana
+delete|branch|Acromantis javana|Acromantis lilii
+delete|branch|Acromantis javana|Acromantis montana
+delete|branch|Acromantis javana|Acromantis montana
+delete|branch|Acromantis formosa|Acromantis oligoneura
+delete|branch|Anasigerpes alluaudi|Anasigerpes heydeni
+delete|branch|Anasigerpes crassipes|Anasigerpes heydeni
+delete|branch|Anasigerpes modesta|Anasigerpes heydeni
+delete|branch|Anasigerpes coxalis|Anasigerpes nigripes
+delete|branch|Anaxarcha|Anaxarcha graminea
+delete|branch|Anaxarcha|Anaxarcha limbata
+delete|branch|Anaxandra|Anaxarcha
+delete|branch|Heliomantis|Heliomantis elegans
+delete|branch|Deiroharpax|Heliomantis
+delete|branch|Hestiasula|Hestiasula phyllopus
+delete|branch|Hestiasula|Hestiasula woodi
+delete|branch|Catestiasula|Hestiasula
+delete|branch|Odontomantis|Odontomantis planiceps
+delete|branch|Odontomantis|Odontomantis pulchra
+delete|branch|Antissa|Odontomantis
+delete|branch|Odontomantis caffraria|Odontomantis pulchra
+delete|branch|Odontomantis flavicincta|Odontomantis pulchra
+delete|branch|Otomantis|Otomantis capirica
+delete|branch|Otomantis|Otomantis scutigera
+delete|branch|Oxypiloidea|Oxypiloidea
+delete|branch|Oxypiloidea|Catasigerpes
+delete|branch|Catasigerpes|Oxypiloidea margarethae
+delete|branch|Catasigerpes|Oxypiloidea occidentalis
+delete|branch|Oxypiloidea camerunensis|Oxypiloidea margarethae
+delete|branch|Oxypiloidea|Oxypiloidea acuminata
+delete|branch|Oxypiloidea|Oxypiloidea angolica
+delete|branch|Oxypiloidea|Oxypiloidea carvalhoi
+delete|branch|Oxypiloidea|Oxypiloidea dargei
+delete|branch|Oxypiloidea|Oxypiloidea denticulata
+delete|branch|Oxypiloidea|Oxypiloidea lobata
+delete|branch|Oxypiloidea|Oxypiloidea murphyi
+delete|branch|Oxypiloidea|Oxypiloidea zernyi
+delete|branch|Oxypiloidea|Oxypiloidea tridens
+delete|branch|Oxypiloidea|Oxypiloidea namibiana
+delete|branch|Epaphrodita|Epaphrodita musarum
+delete|branch|Hymenopodini|Chlidonoptera
+delete|branch|Hymenopodini|Creobroter
+delete|branch|Hymenopodini|Hymenopus
+delete|branch|Hymenopodini|Panurgica
+delete|branch|Hymenopodini|Harpagomantis
+delete|branch|Hymenopodini|Parymenopus
+delete|branch|Hymenopodini|Pseudocreobotra
+delete|branch|Chlidonoptera|Chlidonoptera vexillum
+delete|branch|Anabomistria|Chlidonoptera
+delete|branch|Chloroharpax|Chloroharpax modesta
+delete|branch|Congoharpax|Congoharpax brunneri
+delete|branch|Congoharpax|Congoharpax aberrans
+delete|branch|Creobroter|Creobroter discifera
+delete|branch|Creobroter|Creobroter celebensis
+delete|branch|Creoboter|Creobroter
+delete|branch|Creobotra|Creobroter
+delete|branch|Galinthias|Galinthias amoena
+delete|branch|Galinthias|Galinthias meruensis
+delete|branch|Harpagomantis|Harpagomantis tricolor
+delete|branch|Australomantis|Harpagomantis
+delete|branch|Harpagomantis cornuta|Harpagomantis tricolor
+delete|branch|Harpagomantis lobata|Harpagomantis tricolor
+delete|branch|Harpagomantis paradoxa|Harpagomantis tricolor
+delete|branch|Harpagomantis quadricornis|Harpagomantis tricolor
+delete|branch|Mystipola|Panurgica
+delete|branch|Pseudocreobotra|Pseudocreobotra ocellata
+delete|branch|Pseudoharpax|Pseudoharpax ugandanus
+delete|branch|Theopropus|Theopropus elegans
+delete|branch|Theopropus flavicans|Theopropus elegans
+delete|branch|Oxypilini|Junodia
+delete|branch|Oxypilini|Pachymantis
+delete|branch|Junodia|Junodia lameyi
+delete|branch|Junodia|Junodia congica
+delete|branch|Oxypilus|Anoxypilus
+delete|branch|Oxypilus|Oxypilus
+delete|branch|Anoxypilus|Oxypilus polyacanthus
+delete|branch|Anoxypilus|Oxypilus capensis
+delete|branch|Anoxypilus|Oxypilus meruensis
+delete|branch|Oxypilus|Oxypilus maculifemur
+delete|branch|Oxypilus|Oxypilus lamottei
+delete|branch|Oxypilus|Oxypilus pallidus
+delete|branch|Oxypilus|Oxypilus montanus
+delete|branch|Oxypilus|Oxypilus gillonae
+delete|branch|Oxypilus|Oxypilus flavicoxa
+delete|branch|Oxypilus|Oxypilus hamatus
+delete|branch|Oxypilus|Oxypilus guentheri
+delete|branch|Oxypilus|Oxypilus raggei
+delete|branch|Oxypilus|Oxypilus pierrei
+delete|branch|Oxypilus|Oxypilus villiersi
+delete|branch|Oxypilus|Oxypilus tanzanicus
+delete|branch|Oxypilus|Oxypilus cherlonneixi
+delete|branch|Oxypilus|Oxypilus descampsi
+delete|branch|Oxypilus|Oxypilus enei
+delete|branch|Oxypilus|Oxypilus falcatus
+delete|branch|Oxypilus|Oxypilus annulatus
+delete|branch|Pseudoxypilus|Pseudoxypilus hemerobius
+insert|branch|Acromantini|Anaxarcha
+insert|branch|Acromantini|Chrysomantis
+insert|branch|Acromantini|Hestiasula
+insert|branch|Acromantini|Heliomantis
+insert|branch|Acromantini|Odontomantis
+insert|branch|Acromantini|Otomantis
+insert|branch|Acromantis|Acromantis lilii
+insert|branch|Acromantis|Acromantis montana
+insert|branch|Acromantis|Acromantis moultoni
+insert|branch|Acromantis|Acromantis oligoneura
+insert|branch|Acromantis javana|Acromantis lilii
+insert|branch|Acromantis javana|Acromantis montana
+insert|branch|Acromantis javana|Acromantis montana
+insert|branch|Acromantis javana|Acromantis lilii
+insert|branch|Acromantis javana|Acromantis montana
+insert|branch|Acromantis javana|Acromantis montana
+insert|branch|Acromantis formosa|Acromantis oligoneura
+insert|branch|Anasigerpes alluaudi|Anasigerpes heydeni
+insert|branch|Anasigerpes crassipes|Anasigerpes heydeni
+insert|branch|Anasigerpes modesta|Anasigerpes heydeni
+insert|branch|Anasigerpes coxalis|Anasigerpes nigripes
+insert|branch|Anaxarcha|Anaxarcha graminea
+insert|branch|Anaxarcha|Anaxarcha limbata
+insert|branch|Anaxandra|Anaxarcha
+insert|branch|Heliomantis|Hestiasula woodi
+insert|branch|Heliomantis|Heliomantis elegans
+insert|branch|Deiroharpax|Heliomantis
+insert|branch|Hestiasula|Hestiasula phyllopus
+insert|branch|Catestiasula|Hestiasula
+insert|branch|Odontomantis|Odontomantis planiceps
+insert|branch|Odontomantis|Odontomantis pulchra
+insert|branch|Antissa|Odontomantis
+insert|branch|Odontomantis caffraria|Odontomantis pulchra
+insert|branch|Odontomantis flavicincta|Odontomantis pulchra
+insert|branch|Otomantis|Otomantis capirica
+insert|branch|Otomantis|Otomantis scutigera
+insert|branch|Oxypiloidea|Oxypiloidea
+insert|branch|Oxypiloidea|Catasigerpes
+insert|branch|Catasigerpes|Oxypiloidea margarethae
+insert|branch|Catasigerpes|Oxypiloidea occidentalis
+insert|branch|Oxypiloidea camerunensis|Oxypiloidea margarethae
+insert|branch|Oxypiloidea|Oxypiloidea acuminata
+insert|branch|Oxypiloidea|Oxypiloidea angolica
+insert|branch|Oxypiloidea|Oxypiloidea carvalhoi
+insert|branch|Oxypiloidea|Oxypiloidea dargei
+insert|branch|Oxypiloidea|Oxypiloidea denticulata
+insert|branch|Oxypiloidea|Oxypiloidea lobata
+insert|branch|Oxypiloidea|Oxypiloidea murphyi
+insert|branch|Oxypiloidea|Oxypiloidea zernyi
+insert|branch|Oxypiloidea|Oxypiloidea tridens
+insert|branch|Oxypiloidea|Oxypiloidea namibiana
+insert|branch|Epaphrodita|Epaphrodita musarum
+insert|branch|Hymenopodini|Chlidonoptera
+insert|branch|Hymenopodini|Creobroter
+insert|branch|Hymenopodini|Hymenopus
+insert|branch|Hymenopodini|Panurgica
+insert|branch|Hymenopodini|Harpagomantis
+insert|branch|Hymenopodini|Parymenopus
+insert|branch|Hymenopodini|Pseudocreobotra
+insert|branch|Chlidonoptera|Chlidonoptera vexillum
+insert|branch|Anabomistria|Chlidonoptera
+insert|branch|Chloroharpax|Chloroharpax modesta
+insert|branch|Congoharpax|Congoharpax brunneri
+insert|branch|Congoharpax|Congoharpax aberrans
+insert|branch|Creobroter|Creobroter discifera
+insert|branch|Creobroter|Creobroter celebensis
+insert|branch|Creoboter|Creobroter
+insert|branch|Creobotra|Creobroter
+insert|branch|Galinthias|Galinthias amoena
+insert|branch|Galinthias|Galinthias meruensis
+insert|branch|Harpagomantis|Harpagomantis tricolor
+insert|branch|Australomantis|Harpagomantis
+insert|branch|Harpagomantis cornuta|Harpagomantis tricolor
+insert|branch|Harpagomantis lobata|Harpagomantis tricolor
+insert|branch|Harpagomantis paradoxa|Harpagomantis tricolor
+insert|branch|Harpagomantis quadricornis|Harpagomantis tricolor
+insert|branch|Mystipola|Panurgica
+insert|branch|Pseudocreobotra|Pseudocreobotra ocellata
+insert|branch|Pseudoharpax|Pseudoharpax ugandanus
+insert|branch|Theopropus|Theopropus elegans
+insert|branch|Theopropus flavicans|Theopropus elegans
+insert|branch|Oxypilini|Junodia
+insert|branch|Oxypilini|Pachymantis
+insert|branch|Junodia|Junodia lameyi
+insert|branch|Junodia|Junodia congica
+insert|branch|Oxypilus|Anoxypilus
+insert|branch|Oxypilus|Oxypilus
+insert|branch|Anoxypilus|Oxypilus polyacanthus
+insert|branch|Anoxypilus|Oxypilus capensis
+insert|branch|Anoxypilus|Oxypilus meruensis
+insert|branch|Oxypilus|Oxypilus maculifemur
+insert|branch|Oxypilus|Oxypilus lamottei
+insert|branch|Oxypilus|Oxypilus pallidus
+insert|branch|Oxypilus|Oxypilus montanus
+insert|branch|Oxypilus|Oxypilus gillonae
+insert|branch|Oxypilus|Oxypilus flavicoxa
+insert|branch|Oxypilus|Oxypilus hamatus
+insert|branch|Oxypilus|Oxypilus guentheri
+insert|branch|Oxypilus|Oxypilus raggei
+insert|branch|Oxypilus|Oxypilus pierrei
+insert|branch|Oxypilus|Oxypilus villiersi
+insert|branch|Oxypilus|Oxypilus tanzanicus
+insert|branch|Oxypilus|Oxypilus cherlonneixi
+insert|branch|Oxypilus|Oxypilus descampsi
+insert|branch|Oxypilus|Oxypilus enei
+insert|branch|Oxypilus|Oxypilus falcatus
+insert|branch|Oxypilus|Oxypilus annulatus
+insert|branch|Pseudoxypilus|Pseudoxypilus hemerobius
+insert|branch|Mantodela|Hymenopodidae
+insert|branch|Acromantini|Anasiperpes
+insert|branch|Anasiperpes|Anasigerpes bifasciata
+insert|branch|Anasiperpes|Anasigerpes amieti
+insert|branch|Anasiperpes|Anasigerpes heydeni
+insert|branch|Anasiperpes|Anasigerpes centralis
+insert|branch|Anasiperpes|Anasigerpes grilloti
+insert|branch|Anasiperpes|Anasigerpes nigripes
+insert|branch|Anasiperpes|Anasigerpes trifasciata
+insert|branch|Anasiperpes|Anasigerpes unifasciata
+insert|branch|Phylloharpax|Anasiperpes
