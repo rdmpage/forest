@@ -1,0 +1,343 @@
+delete|node|Zignodelphis miocaenus
+delete|node|Ancylodon
+delete|node|Calliodon
+delete|node|Balaenoptera schlegeli swinhoei
+delete|node|Balaenoptera patachonicha tschudii
+delete|node|Balaenoptera cortesii portisii
+delete|node|Balaenoptera cortesii cortesii
+delete|node|Boops
+delete|node|Plesiocetopsis notopelagicus
+delete|node|Benedenia
+delete|node|Dactylaena
+delete|node|Balaenoptera cuvieri portisi
+delete|node|Protororqualus cuvieri cuvieri
+delete|node|Delphinus delphis bairdii
+delete|node|Delphinus delphis curvirostris
+delete|node|Delphinus capensis tropicalis
+delete|node|Diodon
+delete|node|Globicephalus karsteni
+delete|node|Oryx
+delete|node|Cetus
+delete|node|Grampus griseus griseus
+delete|node|Grampus griseus sowerbianus
+delete|node|Grampus griseus stearnsi
+delete|node|Orcinus orca orca
+delete|node|Orcinus orca pacifica
+delete|node|Physeter microps falcidentatus
+delete|node|Tursiops aduncus aduncus
+delete|node|Tursiops aduncus abusalam
+delete|node|Tursiops tursio cymodoce
+delete|node|Tursiops truncatus gillii
+delete|node|Tursiops tursio metis
+delete|node|Tursiops tursio obtusus
+delete|node|Tursiops truncatus aduncus
+delete|node|Tursiops truncatus truncatus
+delete|node|Tursiops nesarnack nesarnack
+delete|node|Tursiops nesarnack catalania
+delete|node|Tursiops tursio erebennus
+delete|node|Neophocaena asiaeorientalis sunameri
+delete|node|Neophocaena phocaenoides asiaeorientalis
+delete|node|Delphinus phocoena fuscus
+delete|node|Squalodon antverpiensis antverpiensis
+delete|node|Squalodon antverpiensis papillatus
+delete|node|Hyperoodontidae
+delete|node|Inia geoffrensis boliviensis
+delete|node|Aulocetus calaritanus
+delete|node|Aulocetus lovisati
+delete|node|Aulocetus latus
+delete|node|Physeter macrocephalus
+delete|node|Physeter australis asiaticus
+delete|node|Physeter catodon catodon
+delete|node|Physeter macrocephalus macrocephalus
+delete|node|Physeter catodon australis
+delete|node|Physeter macrocephalus cinereus
+delete|node|Physeter macrocephalus niger
+delete|node|Tursio
+delete|node|Cetus
+delete|node|Orca
+delete|node|Physodon
+delete|node|Physodon lorteti
+delete|node|Delphinapterus leucas leucas
+delete|node|Delphinapterus leucas freimani
+delete|node|Balaena mysticetus mysticetus
+delete|node|Balaena mysticetus pittekajensis
+delete|node|Balaena vulgaris vulgaris
+delete|node|Balaena vulgaris groenlandica
+delete|node|Balaena glacialis lamanoni
+delete|node|Cyrtodelphis bogatshowi
+delete|node|Schizodelphis squalodontoides squalodontoides
+delete|node|Schizodelphis squalodontoides capellinii
+insert|node|unclassified Cetacea
+insert|node|Odontoceti
+insert|node|Inia araguaiaensis
+insert|node|Phocoena phocoena x Phocoenoides dalli
+insert|node|Pontoporiidae
+insert|node|Prodelphinus dubius
+insert|node|Prodelphinus malayanus
+insert|node|Clymenia dubia
+insert|node|Stenella pernettyi
+insert|node|Stenella dubia
+insert|node|Steno malayanus
+insert|node|Globicephala sp. EECT-2009a
+insert|node|Globicephala sp.
+insert|node|Globicephala sp. IIC2000
+insert|node|Globicephalus fuscus
+insert|node|unidentified Delphinidae
+insert|node|Delphinidae gen. sp.
+insert|node|Tursiops sp. AN-2005
+insert|node|Tursiops truncatus gephyreus
+insert|node|Tursiops sp. SWFSC Z34066
+insert|node|Tursiops sp. CHF-2011
+insert|node|Tursiops sp. KB-2007
+insert|node|Tursiops nesarnack
+insert|node|Sotalia sp. SSC-2007
+insert|node|Delphinus tropicalis
+insert|node|Delphinus sp. 1 AN-2013
+insert|node|Delphinus pernetyi
+insert|node|Delphinus dubius
+insert|node|Delphinus pernettyi
+insert|node|Delphinus pernettyensis
+insert|node|Delphinus attenuatus
+insert|node|Delphinus cymodoce
+insert|node|Delphinus pomeegra
+insert|node|Delphinus pernettensis
+insert|node|Lissodelphis sp.
+insert|node|Sousa sp. HK016
+insert|node|Sousa sp. AU004
+insert|node|Sousa sp. HK015
+insert|node|Sousa sp. IND1
+insert|node|Sousa sp. HK6
+insert|node|Sousa sp. HK8
+insert|node|Sousa chinensis taiwanensis
+insert|node|Sousa chinensis chinensis
+insert|node|Sousa sp. HK5
+insert|node|Sousa sp. HK7
+insert|node|Sousa sp. AUS2
+insert|node|Sousa sp. HK020
+insert|node|Sousa sp. CHF-2011
+insert|node|Sousa sp. NA026
+insert|node|Sousa sp. AU001
+insert|node|Sousa sp. AU003
+insert|node|Sousa sp. AUS5
+insert|node|Sousa sp. NA005
+insert|node|Sousa sp. HK3
+insert|node|Sousa sp. HK4
+insert|node|Sousa sp. HK1
+insert|node|Sousa sp. HK017
+insert|node|Sousa sp. NA002
+insert|node|Sousa sp. HK2
+insert|node|Sousa sp. AUS3
+insert|node|Sousa sp. AUS4
+insert|node|Sousa sp. NA025
+insert|node|Sousa sp. AUS1
+insert|node|Sousa sp. AU005
+insert|node|Sousa sp. HK9
+insert|node|Sousa sp. AU002
+insert|node|Sousa sahulensis
+insert|node|Lagenorhynchus bombifrons
+insert|node|Lissodelphininae
+insert|node|Globicephalinae
+insert|node|Stenoninae
+insert|node|Delphininae
+insert|node|Platanista gangetica gangetica
+insert|node|Platanista indi
+insert|node|Mesoplodon sp. 1 CSB-2013
+insert|node|Mesoplodon hotaula
+insert|node|Ziphiidae sp.
+insert|node|Hyperoodontinae
+insert|node|Physeter catodon
+insert|node|Odontoceti incertae sedis
+insert|node|Mysticeti
+insert|node|Balaenopteridae gen. sp.
+insert|node|Balaenoptera musculus x Balaenoptera physalus
+insert|node|Balaenoptera acutorostrata dwarf minke whale
+insert|node|Balaenoptera sulcata
+insert|node|Pterobalaena gigantea
+insert|node|Megapterinae
+insert|node|Balaenopterinae
+insert|node|Balaena primigenius
+insert|node|Mysticeti incertae sedis
+insert|node|Amphiptera
+insert|node|Amphiptera pacifica
+insert|node|Cetacea sp. BOLD:AAN3889
+insert|node|Cetacea sp. BOLD:AAG1886
+insert|node|Holodontidae
+insert|node|Oxypterus
+insert|node|Oxypterus rhinoceros
+insert|node|Oxypterus mongitori
+insert|node|Delphinorhynchidae
+insert|node|Rhamphocetus
+insert|node|Agaphelidae
+insert|node|Anarnacus
+insert|node|Hypognathodontidae
+insert|node|Dipterocetus
+insert|node|Dipterocetus mongitori
+insert|node|Delphinorhynchus
+insert|node|Delphinorhynchus pernettyi
+insert|node|Delphinorhynchus santonicus
+insert|node|Delphinorhynchus maculatus
+insert|node|Anarnak
+insert|node|Anarnak groenlandicus
+delete|branch|Cetacea|Balaenidae
+delete|branch|Cetacea|Neobalaenidae
+delete|branch|Cetacea|Monodontidae
+delete|branch|Cetacea|Physeteridae
+delete|branch|Cetacea|Kogiidae
+delete|branch|Cetacea|Iniidae
+delete|branch|Cetacea|Phocoenidae
+delete|branch|Cetacea|Delphinidae
+delete|branch|Cetacea|Balaenopteridae
+delete|branch|Cetacea|Ziphiidae
+delete|branch|Cetacea|Lipotidae
+delete|branch|Cetacea|Eschrichtiidae
+delete|branch|Cetacea|Prolipotes
+delete|branch|Cetacea|Cetotheriophanes
+delete|branch|Cetacea|Platanistidae
+delete|branch|Cetacea|Palaeobalaena
+delete|branch|Prolipotes|Prolipotes yujiangensis
+delete|branch|Lagenoelphis|Lagenoelphis hosei
+delete|branch|Iniidae|Pontoporia
+delete|branch|Iniidae|Lipotes
+delete|branch|Kogiidae|Kogia
+insert|branch|Cetacea|Protobalaena
+insert|branch|Lagenodelphis|Lagenoelphis hosei
+insert|branch|Lipotidae|Prolipotes
+insert|branch|Lipotidae|Prolipotes
+insert|branch|Lipotidae|Lipotes
+insert|branch|Prolipotes|Prolipotes yujiangensis
+insert|branch|Ziphiidae|Hyperoodon
+insert|branch|Ziphiidae|Tasmacetus
+insert|branch|Ziphiidae|Ziphius
+insert|branch|Ziphiidae|Indopacetus
+insert|branch|Ziphiidae|Berardius
+insert|branch|Ziphiidae|Mesoplodon
+insert|branch|Physeteridae|Kogia
+insert|branch|Balaenopteridae|Cetotheriophanes
+insert|branch|Cetotheriophanes|Cetotheriophanes capellinii
+insert|branch|Cetotheriidae|Palaeobalaena
+insert|branch|Palaeobalaena|Palaeobalaena bergi
+insert|branch|Cetacea|Anarnak
+insert|branch|Cetacea|Delphinorhynchus
+insert|branch|Cetacea|Dipterocetus
+insert|branch|Cetacea|Hypognathodontidae
+insert|branch|Cetacea|Anarnacus
+insert|branch|Cetacea|Agaphelidae
+insert|branch|Cetacea|Rhamphocetus
+insert|branch|Cetacea|Delphinorhynchidae
+insert|branch|Cetacea|Oxypterus
+insert|branch|Cetacea|Holodontidae
+insert|branch|Cetacea|Cetacea sp. BOLD:AAG1886
+insert|branch|Cetacea|Cetacea sp. BOLD:AAN3889
+insert|branch|Cetacea|Mysticeti
+insert|branch|Cetacea|Odontoceti
+insert|branch|Cetacea|unclassified Cetacea
+insert|branch|Odontoceti|Odontoceti incertae sedis
+insert|branch|Odontoceti|Kogiidae
+insert|branch|Odontoceti|Physeteridae
+insert|branch|Odontoceti|Ziphiidae
+insert|branch|Odontoceti|Lipotidae
+insert|branch|Odontoceti|Platanistidae
+insert|branch|Odontoceti|Delphinidae
+insert|branch|Odontoceti|Pontoporiidae
+insert|branch|Odontoceti|Monodontidae
+insert|branch|Odontoceti|Phocoenidae
+insert|branch|Odontoceti|Iniidae
+insert|branch|Inia|Inia araguaiaensis
+insert|branch|Phocoena|Phocoena phocoena x Phocoenoides dalli
+insert|branch|Pontoporiidae|Pontoporia
+insert|branch|Delphinidae|Delphininae
+insert|branch|Delphinidae|Stenoninae
+insert|branch|Delphinidae|Globicephalinae
+insert|branch|Delphinidae|Lissodelphininae
+insert|branch|Delphinidae|unidentified Delphinidae
+insert|branch|Stenella|Stenella dubia
+insert|branch|Stenella|Stenella pernettyi
+insert|branch|Stenella|Clymenia dubia
+insert|branch|Stenella|Prodelphinus malayanus
+insert|branch|Stenella|Prodelphinus dubius
+insert|branch|Steno|Steno malayanus
+insert|branch|Globicephala|Globicephalus fuscus
+insert|branch|Globicephala|Globicephala sp. IIC2000
+insert|branch|Globicephala|Globicephala sp.
+insert|branch|Globicephala|Globicephala sp. EECT-2009a
+insert|branch|unidentified Delphinidae|Delphinidae gen. sp.
+insert|branch|Tursiops|Tursiops nesarnack
+insert|branch|Tursiops|Tursiops sp. KB-2007
+insert|branch|Tursiops|Tursiops sp. CHF-2011
+insert|branch|Tursiops|Tursiops sp. SWFSC Z34066
+insert|branch|Tursiops|Tursiops sp. AN-2005
+insert|branch|Tursiops truncatus|Tursiops truncatus gephyreus
+insert|branch|Sotalia|Sotalia sp. SSC-2007
+insert|branch|Delphinus|Delphinus pernettensis
+insert|branch|Delphinus|Delphinus pomeegra
+insert|branch|Delphinus|Delphinus cymodoce
+insert|branch|Delphinus|Delphinus attenuatus
+insert|branch|Delphinus|Delphinus pernettyensis
+insert|branch|Delphinus|Delphinus pernettyi
+insert|branch|Delphinus|Delphinus dubius
+insert|branch|Delphinus|Delphinus pernetyi
+insert|branch|Delphinus|Delphinus sp. 1 AN-2013
+insert|branch|Delphinus|Delphinus tropicalis
+insert|branch|Lissodelphis|Lissodelphis sp.
+insert|branch|Sousa|Sousa sahulensis
+insert|branch|Sousa|Sousa sp. AU002
+insert|branch|Sousa|Sousa sp. HK9
+insert|branch|Sousa|Sousa sp. AU005
+insert|branch|Sousa|Sousa sp. AUS1
+insert|branch|Sousa|Sousa sp. NA025
+insert|branch|Sousa|Sousa sp. AUS4
+insert|branch|Sousa|Sousa sp. AUS3
+insert|branch|Sousa|Sousa sp. HK2
+insert|branch|Sousa|Sousa sp. NA002
+insert|branch|Sousa|Sousa sp. HK017
+insert|branch|Sousa|Sousa sp. HK1
+insert|branch|Sousa|Sousa sp. HK4
+insert|branch|Sousa|Sousa sp. HK3
+insert|branch|Sousa|Sousa sp. NA005
+insert|branch|Sousa|Sousa sp. AUS5
+insert|branch|Sousa|Sousa sp. AU003
+insert|branch|Sousa|Sousa sp. AU001
+insert|branch|Sousa|Sousa sp. NA026
+insert|branch|Sousa|Sousa sp. CHF-2011
+insert|branch|Sousa|Sousa sp. HK020
+insert|branch|Sousa|Sousa sp. AUS2
+insert|branch|Sousa|Sousa sp. HK7
+insert|branch|Sousa|Sousa sp. HK5
+insert|branch|Sousa|Sousa sp. HK8
+insert|branch|Sousa|Sousa sp. HK6
+insert|branch|Sousa|Sousa sp. IND1
+insert|branch|Sousa|Sousa sp. HK015
+insert|branch|Sousa|Sousa sp. AU004
+insert|branch|Sousa|Sousa sp. HK016
+insert|branch|Sousa chinensis|Sousa chinensis chinensis
+insert|branch|Sousa chinensis|Sousa chinensis taiwanensis
+insert|branch|Lagenorhynchus|Lagenorhynchus bombifrons
+insert|branch|Platanista|Platanista indi
+insert|branch|Platanista gangetica|Platanista gangetica gangetica
+insert|branch|Ziphiidae|Hyperoodontinae
+insert|branch|Ziphiidae|Ziphiidae sp.
+insert|branch|Mesoplodon|Mesoplodon hotaula
+insert|branch|Mesoplodon|Mesoplodon sp. 1 CSB-2013
+insert|branch|Physeter|Physeter catodon
+insert|branch|Mysticeti|Amphiptera
+insert|branch|Mysticeti|Mysticeti incertae sedis
+insert|branch|Mysticeti|Neobalaenidae
+insert|branch|Mysticeti|Balaenidae
+insert|branch|Mysticeti|Balaenopteridae
+insert|branch|Mysticeti|Eschrichtiidae
+insert|branch|Balaenopteridae|Balaenopterinae
+insert|branch|Balaenopteridae|Megapterinae
+insert|branch|Balaenopteridae|Balaenopteridae gen. sp.
+insert|branch|Balaenoptera|Pterobalaena gigantea
+insert|branch|Balaenoptera|Balaenoptera sulcata
+insert|branch|Balaenoptera|Balaenoptera musculus x Balaenoptera physalus
+insert|branch|Balaenoptera acutorostrata|Balaenoptera acutorostrata dwarf minke whale
+insert|branch|Balaena|Balaena primigenius
+insert|branch|Amphiptera|Amphiptera pacifica
+insert|branch|Oxypterus|Oxypterus mongitori
+insert|branch|Oxypterus|Oxypterus rhinoceros
+insert|branch|Dipterocetus|Dipterocetus mongitori
+insert|branch|Delphinorhynchus|Delphinorhynchus maculatus
+insert|branch|Delphinorhynchus|Delphinorhynchus santonicus
+insert|branch|Delphinorhynchus|Delphinorhynchus pernettyi
+insert|branch|Anarnak|Anarnak groenlandicus
